@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Montserrat", "Arial", sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  /* Primary */
+  --color-navy: #1E3A5F;
+  --color-navy-dark: #122848;
+  --color-navy-light: #EBF0F8;
+
+  /* Accents – drei Länder, ohne Flaggenoptik */
+  --color-gold: #B8860B;
+  --color-gold-light: #F5E9C4;
+  --color-wine: #7A2F3E;
+  --color-wine-light: #F2E3E6;
+  --color-coral: #B85448;
+  --color-coral-light: #F5E6E4;
+
+  /* Neutral */
+  --color-sand: #F5F3EE;
+  --color-border: #E2DDD8;
+  --color-ink: #1A1A2E;
+  --color-muted: #5A6070;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background: #fff;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid var(--color-navy);
+  outline-offset: 2px;
+  border-radius: 2px;
+}

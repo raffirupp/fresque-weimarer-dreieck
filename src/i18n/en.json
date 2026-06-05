@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Home",
+    "downloads": "Materials",
+    "about": "About"
+  },
+  "hero": {
+    "tagline": "Generation Europa 2025",
+    "title": "Fresque of the Weimar Triangle",
+    "subtitle": "{{TODO: Short, punchy subtitle – what is this about in one sentence?}}",
+    "intro": "{{TODO: Introduction – what is the Fresque, what is its goal, why now? 2–3 sentences.}}",
+    "ctaDownload": "Download materials",
+    "whatIsTitle": "What is the Fresque?",
+    "whatIsText": "{{TODO: Explain the format: collaborative workshop game, cards, discussion, reflection. What happens in a session?}}",
+    "forWhomTitle": "Who is it for?",
+    "forWhomText": "{{TODO: Describe the target audience: young people, students, politically engaged citizens, school classes, association members, etc.}}",
+    "howTitle": "How does it work?",
+    "howText": "{{TODO: Typical format: duration, number of participants, materials needed, role of the facilitator.}}"
+  },
+  "downloads": {
+    "title": "Materials",
+    "subtitle": "{{TODO: Brief note about the available downloads – e.g. license, terms of use, print format.}}",
+    "downloadButton": "Download",
+    "items": {
+      "spielanleitung": {
+        "title": "Game Instructions",
+        "desc": "{{TODO: Brief description of the game instructions – scope, content, who it is intended for.}}"
+      },
+      "karten": {
+        "title": "Card Set",
+        "desc": "{{TODO: Description of the card set – number of cards, categories, note about printing.}}"
+      },
+      "moderationsleitfaden": {
+        "title": "Facilitation Guide",
+        "desc": "{{TODO: Description of the guide – for whom, how long, what does it contain, when is it needed?}}"
+      }
+    }
+  },
+  "team": {
+    "title": "About Us",
+    "subtitle": "{{TODO: Brief introduction to the team or organization behind the Fresque.}}",
+    "person1": {
+      "role": "{{TODO: Role / Position}}",
+      "bio": "{{TODO: Short introduction in 2–3 sentences.}}"
+    },
+    "person2": {
+      "role": "{{TODO: Role / Position}}",
+      "bio": "{{TODO: Short introduction in 2–3 sentences.}}"
+    },
+    "person3": {
+      "role": "{{TODO: Role / Position}}",
+      "bio": "{{TODO: Short introduction in 2–3 sentences.}}"
+    }
+  },
+  "footer": {
+    "orgName": "Generation Europa 2025",
+    "imprintTitle": "Legal Notice",
+    "imprintText": "{{TODO: Full legal notice / imprint details.}}",
+    "contactTitle": "Contact",
+    "contactEmail": "{{TODO: contact@example.org}}",
+    "rights": "All rights reserved."
+  }
+}
