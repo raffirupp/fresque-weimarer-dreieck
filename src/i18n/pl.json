@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Start",
+    "downloads": "Materiały",
+    "about": "O nas"
+  },
+  "hero": {
+    "tagline": "Generation Europa 2025",
+    "title": "Fresk Trójkąta Weimarskiego",
+    "subtitle": "Interaktywny warsztat o współpracy europejskiej",
+    "intro": "Fresk Trójkąta Weimarskiego to narzędzie edukacyjne dla liderów młodzieżowych, które w angażujący sposób przybliża historię i przyszłość współpracy między Niemcami, Francją i Polską. Idealne do grup młodzieżowych, zajęć szkolnych i warsztatów obywatelskich.",
+    "ctaDownload": "Pobierz materiały",
+    "whatIsTitle": "Czym jest Fresk?",
+    "whatIsText": "Kolaboratywna gra warsztatowa z kartami, dyskusjami i refleksją grupową. Uczestnicy odkrywają razem historię i wartości Trójkąta Weimarskiego w ciągu jednej sesji.",
+    "forWhomTitle": "Dla kogo?",
+    "forWhomText": "Dla liderów młodzieżowych, animatorów, nauczycieli i organizacji prowadzących warsztaty dla młodzieży w wieku 14–25 lat. Nie wymaga wcześniejszej wiedzy.",
+    "howTitle": "Jak to działa?",
+    "howText": "Czas trwania: 90–120 minut. Liczba uczestników: 8–24 osoby. Potrzebny jest zestaw kart i moderator korzystający z naszego bezpłatnego przewodnika."
+  },
+  "scrolly": {
+    "s1": {
+      "label": "Czym jest Fresk?",
+      "title": "Warsztat, który ożywia Europę",
+      "text": "Fresk to gra z kartami przeznaczona dla grup młodzieżowych. W 90 minutach uczestnicy wspólnie odkrywają, co łączy Niemcy, Francję i Polskę – i jak chcą kształtować Europę przyszłości."
+    },
+    "s2": {
+      "label": "Dla kogo?",
+      "title": "Dla młodzieży od 14 do 25 lat",
+      "text": "Liderzy młodzieżowi, nauczyciele i koordynatorzy stowarzyszeń mogą prowadzić Fresk bez żadnych wcześniejszych wymagań. Wszystko, czego potrzebujesz, to bezpłatne materiały i chęć na wartościowe rozmowy."
+    },
+    "s3": {
+      "label": "Jak?",
+      "title": "W trzech prostych krokach",
+      "text": "Pobierz materiały, wydrukuj karty i rozpocznij swój warsztat. Obszerny przewodnik dla moderatora przeprowadzi Cię przez cały przebieg – krok po kroku."
+    }
+  },
+  "downloads": {
+    "title": "Materiały",
+    "subtitle": "Wszystkie materiały są bezpłatne i mogą być drukowane. Pobierz je i zacznij organizować własny warsztat.",
+    "downloadButton": "Pobierz",
+    "gate": {
+      "title": "Pobierz bezpłatne materiały",
+      "text": "Podaj swój adres e-mail, aby uzyskać dostęp do wszystkich materiałów. Będziemy Cię informować o aktualizacjach i nowych zasobach.",
+      "placeholder": "twoj@email.pl",
+      "button": "Odblokuj dostęp",
+      "success": "Dziękujemy! Możesz teraz pobrać wszystkie materiały.",
+      "privacy": "Nie udostępniamy Twojego adresu e-mail osobom trzecim."
+    },
+    "items": {
+      "spielanleitung": {
+        "title": "Instrukcja gry",
+        "desc": "Szczegółowa instrukcja gry dla moderatorów i uczestników. Zawiera zasady, wskazówki metodyczne i pytania do refleksji."
+      },
+      "karten": {
+        "title": "Zestaw kart",
+        "desc": "Kompletny zestaw kart do druku w formacie A4. Zawiera karty tematyczne, karty refleksji i karty wydarzeń historycznych."
+      },
+      "moderationsleitfaden": {
+        "title": "Przewodnik moderatora",
+        "desc": "Szczegółowy przewodnik krok po kroku dla moderatorów. Zawiera sugestie pytań, wskazówki czasowe i opcje adaptacji."
+      }
+    }
+  },
+  "team": {
+    "title": "O nas",
+    "subtitle": "Fresk Trójkąta Weimarskiego został opracowany przez zespół Generation Europa 2025 – organizację zaangażowaną w edukację europejską.",
+    "person1": {
+      "role": "Kierownik projektu",
+      "bio": "Placeholder – imię i nazwisko, rola oraz krótka biografia zostaną tutaj uzupełnione."
+    },
+    "person2": {
+      "role": "Projektant materiałów",
+      "bio": "Placeholder – imię i nazwisko, rola oraz krótka biografia zostaną tutaj uzupełnione."
+    },
+    "person3": {
+      "role": "Koordynator partnerstw",
+      "bio": "Placeholder – imię i nazwisko, rola oraz krótka biografia zostaną tutaj uzupełnione."
+    }
+  },
+  "footer": {
+    "orgName": "Generation Europa 2025",
+    "imprintTitle": "Impressum",
+    "imprintText": "Dane wydawcy zostaną tutaj uzupełnione.",
+    "contactTitle": "Kontakt",
+    "contactEmail": "kontakt@example.org",
+    "rights": "Wszelkie prawa zastrzeżone."
+  }
+}

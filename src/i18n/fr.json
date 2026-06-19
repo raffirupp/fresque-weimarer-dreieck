@@ -7,57 +7,82 @@
   "hero": {
     "tagline": "Generation Europa 2025",
     "title": "La Fresque du Triangle de Weimar",
-    "subtitle": "{{TODO: Sous-titre court et percutant – de quoi s'agit-il en une phrase ?}}",
-    "intro": "{{TODO: Texte d'introduction – qu'est-ce que la Fresque, quel est son objectif, pourquoi maintenant ? 2–3 phrases.}}",
+    "subtitle": "Un atelier interactif sur la coopération européenne",
+    "intro": "La Fresque du Triangle de Weimar est un outil pédagogique pour les animateurs de jeunesse, qui transmet de manière ludique l'histoire et l'avenir de la coopération entre l'Allemagne, la France et la Pologne. Idéal pour les groupes de jeunes, les classes scolaires et les ateliers citoyens.",
     "ctaDownload": "Télécharger les matériaux",
-    "whatIsTitle": "Qu'est-ce que la Fresque ?",
-    "whatIsText": "{{TODO: Expliquer le format : atelier collaboratif, cartes, discussion, réflexion. Que se passe-t-il lors d'une séance ?}}",
-    "forWhomTitle": "Pour qui ?",
-    "forWhomText": "{{TODO: Décrire le public cible : jeunes, étudiants, citoyens engagés, classes scolaires, membres d'associations, etc.}}",
-    "howTitle": "Comment ça se passe ?",
-    "howText": "{{TODO: Format typique : durée, nombre de participants, matériel nécessaire, rôle de l'animateur.}}"
+    "whatIsTitle": "Qu'est-ce que la Fresque ?",
+    "whatIsText": "Un jeu de cartes collaboratif avec des discussions et une réflexion de groupe. En 90 minutes, les participants découvrent ensemble l'histoire et les valeurs du Triangle de Weimar.",
+    "forWhomTitle": "Pour qui ?",
+    "forWhomText": "Pour les animateurs de jeunesse, enseignants et coordinateurs d'associations qui organisent des ateliers pour les jeunes de 14 à 25 ans. Aucune connaissance préalable requise.",
+    "howTitle": "Comment ça se passe ?",
+    "howText": "Durée : 90–120 minutes. Participants : 8–24 personnes. Il suffit du jeu de cartes et d'un·e animateur·rice avec notre guide de facilitation gratuit."
+  },
+  "scrolly": {
+    "s1": {
+      "label": "Qu'est-ce que la Fresque ?",
+      "title": "Un atelier qui donne vie à l'Europe",
+      "text": "La Fresque est un jeu de cartes collaboratif pour groupes de jeunes. En 90 minutes, les participants découvrent ensemble ce qui unit l'Allemagne, la France et la Pologne – et comment ils veulent façonner l'Europe de demain."
+    },
+    "s2": {
+      "label": "Pour qui ?",
+      "title": "Pour les jeunes de 14 à 25 ans",
+      "text": "Les animateurs de jeunesse, enseignants et coordinateurs d'associations peuvent animer la Fresque sans connaissances préalables. Tout ce dont vous avez besoin, c'est le matériel gratuit et l'envie de belles conversations."
+    },
+    "s3": {
+      "label": "Comment ?",
+      "title": "En trois étapes simples",
+      "text": "Téléchargez les matériaux, imprimez les cartes et lancez votre atelier. Un guide de facilitation détaillé vous accompagne tout au long du déroulement – étape par étape."
+    }
   },
   "downloads": {
     "title": "Matériaux",
-    "subtitle": "{{TODO: Courte note sur les téléchargements disponibles – licence, conditions d'utilisation, format d'impression.}}",
+    "subtitle": "Tous les matériaux sont gratuits et imprimables. Téléchargez-les et lancez votre propre atelier.",
     "downloadButton": "Télécharger",
+    "gate": {
+      "title": "Obtenir les matériaux gratuits",
+      "text": "Entrez votre adresse e-mail pour télécharger tous les matériaux. Nous vous informerons des mises à jour et nouvelles ressources.",
+      "placeholder": "votre@email.fr",
+      "button": "Débloquer l'accès",
+      "success": "Merci ! Vous pouvez maintenant télécharger tous les matériaux.",
+      "privacy": "Nous ne partageons pas votre e-mail avec des tiers."
+    },
     "items": {
       "spielanleitung": {
         "title": "Instructions du jeu",
-        "desc": "{{TODO: Brève description des instructions – contenu, portée, à qui elles s'adressent.}}"
+        "desc": "Guide détaillé pour les animateurs et les participants. Contient les règles, des conseils méthodiques et des questions de réflexion."
       },
       "karten": {
         "title": "Jeu de cartes",
-        "desc": "{{TODO: Description du jeu de cartes – nombre de cartes, catégories, remarque sur l'impression.}}"
+        "desc": "Jeu de cartes complet et imprimable en format A4. Contient des cartes thématiques, des cartes de réflexion et des cartes d'événements historiques."
       },
       "moderationsleitfaden": {
         "title": "Guide de facilitation",
-        "desc": "{{TODO: Description du guide – pour qui, quelle longueur, que contient-il, quand est-il nécessaire ?}}"
+        "desc": "Guide détaillé étape par étape pour les animateurs. Avec des suggestions de questions, une planification du temps et des options d'adaptation."
       }
     }
   },
   "team": {
     "title": "À propos",
-    "subtitle": "{{TODO: Courte présentation de l'équipe ou de l'organisation derrière la Fresque.}}",
+    "subtitle": "La Fresque du Triangle de Weimar a été développée par l'équipe de Generation Europa 2025 – une organisation dédiée à l'éducation européenne.",
     "person1": {
-      "role": "{{TODO: Rôle / Fonction}}",
-      "bio": "{{TODO: Courte présentation en 2–3 phrases.}}"
+      "role": "Direction de projet",
+      "bio": "Placeholder – nom et courte biographie seront ajoutés ici."
     },
     "person2": {
-      "role": "{{TODO: Rôle / Fonction}}",
-      "bio": "{{TODO: Courte présentation en 2–3 phrases.}}"
+      "role": "Conception des matériaux",
+      "bio": "Placeholder – nom et courte biographie seront ajoutés ici."
     },
     "person3": {
-      "role": "{{TODO: Rôle / Fonction}}",
-      "bio": "{{TODO: Courte présentation en 2–3 phrases.}}"
+      "role": "Coordination des partenariats",
+      "bio": "Placeholder – nom et courte biographie seront ajoutés ici."
     }
   },
   "footer": {
     "orgName": "Generation Europa 2025",
     "imprintTitle": "Mentions légales",
-    "imprintText": "{{TODO: Mentions légales complètes.}}",
+    "imprintText": "Les mentions légales complètes seront ajoutées ici.",
     "contactTitle": "Contact",
-    "contactEmail": "{{TODO: contact@example.org}}",
+    "contactEmail": "contact@example.org",
     "rights": "Tous droits réservés."
   }
 }

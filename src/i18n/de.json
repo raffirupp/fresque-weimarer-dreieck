@@ -7,57 +7,82 @@
   "hero": {
     "tagline": "Generation Europa 2025",
     "title": "Fresque zum Weimarer Dreieck",
-    "subtitle": "{{TODO: Kurzer, prägnanter Untertitel – worum geht es in einem Satz?}}",
-    "intro": "{{TODO: Einleitungstext – Was ist die Fresque, was ist ihr Ziel, warum jetzt? 2–3 Sätze.}}",
+    "subtitle": "Ein interaktiver Workshop über europäische Zusammenarbeit",
+    "intro": "Die Fresque zum Weimarer Dreieck ist ein Bildungswerkzeug für Jugendleiter:innen, das die Geschichte und Zukunft der Zusammenarbeit zwischen Deutschland, Frankreich und Polen auf spielerische Weise vermittelt. Geeignet für Jugendgruppen, Schulklassen und Bürgerworkshops.",
     "ctaDownload": "Materialien herunterladen",
     "whatIsTitle": "Was ist die Fresque?",
-    "whatIsText": "{{TODO: Erkläre das Format: kollaboratives Workshop-Spiel, Karten, Diskussion, Reflexion. Was passiert in einer Sitzung?}}",
+    "whatIsText": "Ein kollaboratives Kartenspiel mit Diskussionsrunden und Gruppenreflexion. In 90 Minuten entdecken Teilnehmende gemeinsam Geschichte und Werte des Weimarer Dreiecks.",
     "forWhomTitle": "Für wen?",
-    "forWhomText": "{{TODO: Zielgruppe beschreiben: Jugendliche, Studierende, politisch Engagierte, Schulklassen, Vereinsmitglieder, etc.}}",
+    "forWhomText": "Für Jugendleiter:innen, Lehrkräfte und Vereinskoordinator:innen, die Workshops für Jugendliche zwischen 14 und 25 Jahren leiten. Kein Vorwissen nötig.",
     "howTitle": "Wie läuft es ab?",
-    "howText": "{{TODO: Typischer Ablauf: Dauer, Teilnehmerzahl, benötigtes Material, Rolle der Moderation.}}"
+    "howText": "Dauer: 90–120 Minuten. Teilnehmende: 8–24 Personen. Benötigt wird das Karten-Set und ein:e Moderator:in mit unserem kostenlosen Moderationsleitfaden."
+  },
+  "scrolly": {
+    "s1": {
+      "label": "Was ist die Fresque?",
+      "title": "Ein Workshop, der Europa zum Leben erweckt",
+      "text": "Die Fresque ist ein kollaboratives Kartenspiel für Jugendgruppen. In 90 Minuten entdecken Teilnehmende gemeinsam, was Deutschland, Frankreich und Polen verbindet – und wie sie Europa der Zukunft gestalten wollen."
+    },
+    "s2": {
+      "label": "Für wen?",
+      "title": "Für Jugendliche von 14 bis 25 Jahren",
+      "text": "Jugendleiter:innen, Lehrkräfte und Vereinskoordinator:innen können die Fresque ohne Vorkenntnisse leiten. Alles, was du brauchst, ist das kostenlose Material und Lust auf gute Gespräche."
+    },
+    "s3": {
+      "label": "Wie?",
+      "title": "In drei einfachen Schritten",
+      "text": "Lade die Materialien herunter, drucke die Karten aus, und starte deinen Workshop. Ein ausführlicher Moderationsleitfaden begleitet dich durch den gesamten Ablauf – Schritt für Schritt."
+    }
   },
   "downloads": {
     "title": "Materialien",
-    "subtitle": "{{TODO: Kurzer Hinweis zu den verfügbaren Downloads – z. B. Lizenz, Nutzungsbedingungen, Druckformat.}}",
+    "subtitle": "Alle Materialien sind kostenlos und druckbar. Lade sie herunter und starte deinen eigenen Workshop.",
     "downloadButton": "Herunterladen",
+    "gate": {
+      "title": "Kostenlose Materialien erhalten",
+      "text": "Gib deine E-Mail-Adresse ein, um alle Materialien herunterladen zu können. Wir informieren dich über Updates und neue Ressourcen.",
+      "placeholder": "deine@email.de",
+      "button": "Zugang freischalten",
+      "success": "Danke! Du kannst jetzt alle Materialien herunterladen.",
+      "privacy": "Wir geben deine E-Mail nicht weiter."
+    },
     "items": {
       "spielanleitung": {
         "title": "Spielanleitung",
-        "desc": "{{TODO: Kurze Beschreibung der Spielanleitung – Umfang, Inhalt, für wen gedacht.}}"
+        "desc": "Ausführliche Anleitung für Moderator:innen und Teilnehmende. Enthält Regeln, methodische Hinweise und Reflexionsfragen."
       },
       "karten": {
         "title": "Karten-Set",
-        "desc": "{{TODO: Beschreibung des Karten-Sets – Anzahl Karten, Kategorien, Hinweis zum Ausdrucken.}}"
+        "desc": "Vollständiges, druckbares Karten-Set im A4-Format. Enthält Themenkarten, Reflexionskarten und historische Ereigniskarten."
       },
       "moderationsleitfaden": {
         "title": "Moderationsleitfaden",
-        "desc": "{{TODO: Beschreibung des Leitfadens – für wen, wie lang, was enthält er, wann wird er gebraucht?}}"
+        "desc": "Detaillierter Schritt-für-Schritt-Leitfaden für Moderator:innen. Mit Fragenvorschlägen, Zeitplanung und Anpassungsoptionen."
       }
     }
   },
   "team": {
     "title": "Über uns",
-    "subtitle": "{{TODO: Kurze Vorstellung des Teams oder der Organisation hinter der Fresque.}}",
+    "subtitle": "Die Fresque zum Weimarer Dreieck wurde vom Team Generation Europa 2025 entwickelt – einer Organisation für europäische Bildung.",
     "person1": {
-      "role": "{{TODO: Rolle / Funktion}}",
-      "bio": "{{TODO: Kurze Vorstellung in 2–3 Sätzen.}}"
+      "role": "Projektleitung",
+      "bio": "Platzhalter – Name und Kurzbiografie werden hier ergänzt."
     },
     "person2": {
-      "role": "{{TODO: Rolle / Funktion}}",
-      "bio": "{{TODO: Kurze Vorstellung in 2–3 Sätzen.}}"
+      "role": "Materialgestaltung",
+      "bio": "Platzhalter – Name und Kurzbiografie werden hier ergänzt."
     },
     "person3": {
-      "role": "{{TODO: Rolle / Funktion}}",
-      "bio": "{{TODO: Kurze Vorstellung in 2–3 Sätzen.}}"
+      "role": "Partnerkoordination",
+      "bio": "Platzhalter – Name und Kurzbiografie werden hier ergänzt."
     }
   },
   "footer": {
     "orgName": "Generation Europa 2025",
     "imprintTitle": "Impressum",
-    "imprintText": "{{TODO: Vollständige Impressumsangaben gemäß §5 TMG: Name, Anschrift, Kontakt, ggf. USt-ID.}}",
+    "imprintText": "Angaben gemäß §5 TMG werden hier ergänzt.",
     "contactTitle": "Kontakt",
-    "contactEmail": "{{TODO: kontakt@example.org}}",
+    "contactEmail": "kontakt@example.org",
     "rights": "Alle Rechte vorbehalten."
   }
 }
