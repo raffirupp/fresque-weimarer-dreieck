@@ -77,7 +77,8 @@
     "success_title": "Merci beaucoup !",
     "success_text": "Voici vos matériaux dans la langue choisie. Bon atelier !",
     "error": "Une erreur s'est produite. Veuillez réessayer.",
-    "privacy": "Toutes les informations sont facultatives et réservées à un usage interne."
+    "privacy": "Toutes les informations sont facultatives et réservées à un usage interne.",
+    "privacyLinkText": "Politique de confidentialité de l'OFAJ"
   },
   "team": {
     "title": "À propos",

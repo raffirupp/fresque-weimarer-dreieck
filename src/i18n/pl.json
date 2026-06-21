@@ -77,7 +77,8 @@
     "success_title": "Dziękujemy!",
     "success_text": "Oto Wasze materiały w wybranym języku. Powodzenia na warsztacie!",
     "error": "Coś poszło nie tak. Proszę spróbować ponownie.",
-    "privacy": "Wszystkie informacje są dobrowolne i wykorzystywane wyłącznie do użytku wewnętrznego."
+    "privacy": "Wszystkie informacje są dobrowolne i wykorzystywane wyłącznie do użytku wewnętrznego.",
+    "privacyLinkText": "Polityka prywatności DFJW"
   },
   "team": {
     "title": "O nas",

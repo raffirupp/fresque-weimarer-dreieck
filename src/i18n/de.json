@@ -77,7 +77,8 @@
     "success_title": "Vielen Dank!",
     "success_text": "Hier sind eure Materialien in der gewählten Sprache. Viel Erfolg beim Workshop!",
     "error": "Etwas ist schiefgelaufen. Bitte versucht es erneut.",
-    "privacy": "Alle Angaben sind freiwillig und werden nur intern genutzt."
+    "privacy": "Alle Angaben sind freiwillig und werden nur intern genutzt.",
+    "privacyLinkText": "Datenschutzerklärung des DFJW"
   },
   "team": {
     "title": "Über uns",

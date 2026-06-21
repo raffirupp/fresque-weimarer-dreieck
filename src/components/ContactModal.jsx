@@ -298,7 +298,17 @@ function FormView({ s, variant, onSuccess }) {
         {status === 'error' && <p className={s.errorCls}>{t('contact.error')}</p>}
       </form>
 
-      <p className={`${s.privacyCls} mt-5`} style={s.privacyStyle}>{t('contact.privacy')}</p>
+      <p className={`${s.privacyCls} mt-5`} style={s.privacyStyle}>
+        {t('contact.privacy')}{' '}
+        <a
+          href="https://www.dfjw.org/datenschutzerklaerung"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2 hover:opacity-70 transition-opacity"
+        >
+          {t('contact.privacyLinkText')}
+        </a>
+      </p>
     </div>
   )
 }
