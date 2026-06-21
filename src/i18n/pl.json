@@ -65,12 +65,14 @@
     "placeholder_partner": "np. PNWM, partnerstwo miast, szkoła ...",
     "field_email": "Wasz adres kontaktowy",
     "placeholder_email": "wasz@email.pl",
-    "button": "Odblokuj materiały",
+    "optional_note": "Jeśli chcecie podzielić się kilkoma informacjami, będziemy bardzo wdzięczni – wszystko jest dobrowolne i tylko do użytku wewnętrznego. Możecie też pobrać materiały bezpośrednio.",
+    "button": "Wyślij i pobierz materiały",
+    "skip": "Przejdź bezpośrednio do materiałów →",
     "sending": "Wysyłanie ...",
     "success_title": "Dziękujemy!",
     "success_text": "Oto Wasze materiały w wybranym języku. Powodzenia na warsztacie!",
     "error": "Coś poszło nie tak. Proszę spróbować ponownie.",
-    "privacy": "Wasze dane są wykorzystywane wyłącznie wewnętrznie i nie są przekazywane osobom trzecim."
+    "privacy": "Wszystkie informacje są dobrowolne i wykorzystywane wyłącznie do użytku wewnętrznego."
   },
   "team": {
     "title": "O nas",

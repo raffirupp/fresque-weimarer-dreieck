@@ -82,18 +82,24 @@ function ContactForm({ onSuccess }) {
 
   const set = (key) => (e) => setFields(f => ({ ...f, [key]: e.target.value }))
 
+  const unlock = (lang) => {
+    localStorage.setItem('fresque_unlocked', '1')
+    localStorage.setItem('fresque_unlocked_lang', lang)
+    onSuccess(lang)
+  }
+
   const handleSubmit = async (e) => {
     e.preventDefault()
     setStatus('sending')
     const { ok } = await submitContactForm({ ...fields, language: formLang })
     if (ok) {
-      localStorage.setItem('fresque_unlocked', '1')
-      localStorage.setItem('fresque_unlocked_lang', formLang)
-      onSuccess(formLang)
+      unlock(formLang)
     } else {
       setStatus('error')
     }
   }
+
+  const handleSkip = () => unlock(formLang)
 
   const inputCls = 'w-full px-4 py-2.5 text-sm border border-[#E2DDD8] rounded-lg outline-none transition-colors bg-white text-[#1A1A2E] placeholder:text-[#5A6070]/50 focus:border-[#1E3A5F]'
   const labelCls = 'block text-[11px] font-semibold text-[#1E3A5F] mb-1.5 uppercase tracking-wide'
@@ -101,7 +107,7 @@ function ContactForm({ onSuccess }) {
   return (
     <div className="p-6 sm:p-8">
       {/* Language selector */}
-      <div className="mb-7">
+      <div className="mb-6">
         <p className={labelCls}>{t('contact.langLabel')}</p>
         <div className="flex gap-2 flex-wrap">
           {FORM_LANGS.map(l => (
@@ -121,15 +127,19 @@ function ContactForm({ onSuccess }) {
         </div>
       </div>
 
-      <form onSubmit={handleSubmit} className="space-y-5">
+      {/* Optional info box */}
+      <div className="bg-[#F5F3EE] rounded-xl px-4 py-3 mb-6">
+        <p className="text-sm text-[#5A6070] leading-relaxed">{t('contact.optional_note')}</p>
+      </div>
+
+      <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label className={labelCls}>{t('contact.field_einsatzzweck')}</label>
           <textarea
             value={fields.einsatzzweck}
             onChange={set('einsatzzweck')}
             placeholder={t('contact.placeholder_einsatzzweck')}
-            rows={3}
-            required
+            rows={2}
             className={`${inputCls} resize-none`}
           />
         </div>
@@ -142,7 +152,6 @@ function ContactForm({ onSuccess }) {
               value={fields.land}
               onChange={set('land')}
               placeholder={t('contact.placeholder_land')}
-              required
               className={inputCls}
             />
           </div>
@@ -153,7 +162,6 @@ function ContactForm({ onSuccess }) {
               value={fields.zielgruppe}
               onChange={set('zielgruppe')}
               placeholder={t('contact.placeholder_zielgruppe')}
-              required
               className={inputCls}
             />
           </div>
@@ -177,12 +185,11 @@ function ContactForm({ onSuccess }) {
             value={fields.email}
             onChange={set('email')}
             placeholder={t('contact.placeholder_email')}
-            required
             className={inputCls}
           />
         </div>
 
-        <div className="pt-1 flex flex-col sm:flex-row sm:items-center gap-3">
+        <div className="pt-2 flex flex-col sm:flex-row sm:items-center gap-3">
           <button
             type="submit"
             disabled={status === 'sending'}
@@ -191,7 +198,13 @@ function ContactForm({ onSuccess }) {
           >
             {status === 'sending' ? t('contact.sending') : t('contact.button')}
           </button>
-          <p className="text-xs text-[#5A6070]/70">{t('contact.privacy')}</p>
+          <button
+            type="button"
+            onClick={handleSkip}
+            className="text-sm text-[#5A6070] hover:text-[#1E3A5F] underline underline-offset-2 transition-colors"
+          >
+            {t('contact.skip')}
+          </button>
         </div>
 
         {status === 'error' && (

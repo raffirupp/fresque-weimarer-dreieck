@@ -65,12 +65,14 @@
     "placeholder_partner": "z.B. DFJW, Städtepartnerschaft, Schule ...",
     "field_email": "Eure Kontaktadresse",
     "placeholder_email": "eure@email.de",
-    "button": "Materialien freischalten",
+    "optional_note": "Wenn ihr uns ein paar Informationen teilt, freuen wir uns sehr – alles freiwillig und nur für interne Zwecke. Ihr könnt die Materialien auch direkt herunterladen.",
+    "button": "Absenden & Materialien erhalten",
+    "skip": "Direkt zu den Materialien →",
     "sending": "Wird gesendet ...",
     "success_title": "Vielen Dank!",
     "success_text": "Hier sind eure Materialien in der gewählten Sprache. Viel Erfolg beim Workshop!",
     "error": "Etwas ist schiefgelaufen. Bitte versucht es erneut.",
-    "privacy": "Eure Daten werden nur intern genutzt und nicht an Dritte weitergegeben."
+    "privacy": "Alle Angaben sind freiwillig und werden nur intern genutzt."
   },
   "team": {
     "title": "Über uns",

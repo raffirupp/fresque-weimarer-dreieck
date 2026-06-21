@@ -65,12 +65,14 @@
     "placeholder_partner": "ex. OFAJ, jumelage, école ...",
     "field_email": "Votre adresse de contact",
     "placeholder_email": "votre@email.fr",
-    "button": "Débloquer les matériaux",
+    "optional_note": "Si vous souhaitez partager quelques informations, nous en serions ravis – tout est facultatif et réservé à un usage interne. Vous pouvez aussi télécharger les matériaux directement.",
+    "button": "Envoyer & accéder aux matériaux",
+    "skip": "Accéder directement aux matériaux →",
     "sending": "Envoi en cours ...",
     "success_title": "Merci beaucoup !",
     "success_text": "Voici vos matériaux dans la langue choisie. Bon atelier !",
     "error": "Une erreur s'est produite. Veuillez réessayer.",
-    "privacy": "Vos données sont utilisées uniquement en interne et ne sont pas transmises à des tiers."
+    "privacy": "Toutes les informations sont facultatives et réservées à un usage interne."
   },
   "team": {
     "title": "À propos",
