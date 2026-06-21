@@ -174,7 +174,7 @@ export default function V3Hero() {
             {/* Right: content + card */}
             <div className="v3-content-grid">
               <div className="v3-fade" style={{ transitionDelay: `${0.1 + i * 0.05}s` }}>
-                <p style={{ fontSize: 16, lineHeight: 1.9, color: '#444' }}>
+                <p style={{ fontSize: 18, lineHeight: 1.85, color: '#444' }}>
                   {sec.text}
                 </p>
                 {sec.cta && (
@@ -192,20 +192,27 @@ export default function V3Hero() {
                 )}
               </div>
 
-              {/* Card image with parallax */}
-              <div className="v3-fade" style={{ transitionDelay: `${0.2 + i * 0.05}s` }}>
-                <div style={{ transform: `translateY(${scrollY * (0.04 + i * 0.02)}px)` }}>
-                  <div style={{
-                    padding: 16,
-                    background: '#f5f5f5',
-                    boxShadow: '0 24px 64px rgba(0,0,0,0.07)',
-                  }}>
-                    <img
-                      src={sec.card}
-                      alt=""
-                      style={{ width: '100%', display: 'block' }}
-                    />
-                  </div>
+              {/* Card image – fills full height of text column */}
+              <div
+                className="v3-fade"
+                style={{
+                  transitionDelay: `${0.2 + i * 0.05}s`,
+                  height: '100%',
+                  display: 'flex',
+                  alignItems: 'center',
+                }}
+              >
+                <div style={{
+                  padding: 16,
+                  background: '#f5f5f5',
+                  boxShadow: '0 24px 64px rgba(0,0,0,0.07)',
+                  width: '100%',
+                }}>
+                  <img
+                    src={sec.card}
+                    alt=""
+                    style={{ width: '100%', display: 'block' }}
+                  />
                 </div>
               </div>
             </div>

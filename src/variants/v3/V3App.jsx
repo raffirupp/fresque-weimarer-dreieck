@@ -42,7 +42,7 @@ export default function V3App() {
           display: grid;
           grid-template-columns: 1fr 1fr;
           gap: 60px;
-          align-items: start;
+          align-items: stretch;
         }
         @media (max-width: 700px) {
           .v3-content-grid { grid-template-columns: 1fr; }
