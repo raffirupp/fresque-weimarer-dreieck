@@ -17,7 +17,7 @@ export default function V2App() {
           <CardGallery variant="v2" />
         </main>
         <V2Footer />
-        <ContactModal />
+        <ContactModal variant="v2" />
       </div>
     </ModalProvider>
   )

@@ -68,7 +68,7 @@ export default function V3App() {
           <CardGallery variant="v3" />
         </main>
         <V3Footer />
-        <ContactModal />
+        <ContactModal variant="v3" />
       </div>
     </ModalProvider>
   )

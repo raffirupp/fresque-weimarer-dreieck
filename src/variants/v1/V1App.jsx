@@ -14,7 +14,7 @@ export default function V1App() {
         <CardGallery variant="v1" />
       </main>
       <V1Footer />
-      <ContactModal />
+      <ContactModal variant="v1" />
     </ModalProvider>
   )
 }
