@@ -15,7 +15,7 @@ export default function V2Header() {
 
   return (
     <header className="sticky top-0 z-40 bg-violet-700 text-white">
-      <div className="max-w-6xl mx-auto px-5 sm:px-8">
+      <div className="max-w-7xl mx-auto px-5 sm:px-10">
         <div className="flex items-center justify-between h-16">
 
           <a href="#v2-info" className="flex items-center gap-2.5 min-w-0">

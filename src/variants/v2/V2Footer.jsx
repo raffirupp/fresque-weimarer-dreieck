@@ -6,7 +6,7 @@ export default function V2Footer() {
 
   return (
     <footer style={{ background: 'linear-gradient(135deg, #1E1B4B, #2E1065)' }} className="text-white">
-      <div className="max-w-6xl mx-auto px-5 sm:px-8 py-14">
+      <div className="max-w-7xl mx-auto px-5 sm:px-10 py-14">
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-12">
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">

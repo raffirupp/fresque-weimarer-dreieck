@@ -86,7 +86,7 @@ const variantStyles = {
   v3: {
     section: 'border-t',
     sectionStyle: { borderColor: '#D4C5A9' },
-    inner: 'max-w-5xl mx-auto px-6 sm:px-10 py-16',
+    inner: 'max-w-6xl mx-auto px-6 sm:px-10 py-16',
     heading: 'text-2xl font-bold',
     headingFont: "'Playfair Display', Georgia, serif",
     headingColor: '#1C1917',

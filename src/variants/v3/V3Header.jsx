@@ -15,7 +15,7 @@ export default function V3Header() {
 
   return (
     <header className="sticky top-0 z-40 border-b v3-border v3-bg" style={{ background: '#F7F5F0', borderColor: '#D4C5A9' }}>
-      <div className="max-w-5xl mx-auto px-6 sm:px-10">
+      <div className="max-w-6xl mx-auto px-6 sm:px-10">
         <div className="flex items-center justify-between h-16">
 
           <a href="#v3-info" className="flex flex-col min-w-0">

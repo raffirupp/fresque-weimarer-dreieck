@@ -6,7 +6,7 @@ export default function V1Footer() {
 
   return (
     <footer className="bg-[#122848] text-white">
-      <div className="max-w-6xl mx-auto px-5 sm:px-8 pt-12 pb-8">
+      <div className="max-w-7xl mx-auto px-5 sm:px-10 pt-12 pb-8">
         <div className="grid sm:grid-cols-3 gap-8 mb-10">
           <div>
             <div className="flex gap-1 h-4 mb-4" aria-hidden="true">

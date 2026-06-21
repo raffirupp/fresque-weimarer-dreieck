@@ -24,7 +24,7 @@ export default function V2Hero() {
         <div className="absolute top-16 right-8 w-64 h-64 rounded-full opacity-20 pointer-events-none" style={{ background: 'radial-gradient(circle, #F97316, transparent)' }} aria-hidden="true" />
         <div className="absolute bottom-24 left-12 w-48 h-48 rounded-full opacity-15 pointer-events-none" style={{ background: 'radial-gradient(circle, #10B981, transparent)' }} aria-hidden="true" />
 
-        <div className="max-w-6xl mx-auto w-full relative z-10">
+        <div className="max-w-7xl mx-auto w-full relative z-10">
           <div className="flex flex-wrap gap-2 mb-8">
             <CountryBadge flag="🇩🇪" name="Deutschland" color="bg-white/15 text-white" />
             <CountryBadge flag="🇫🇷" name="France" color="bg-white/15 text-white" />

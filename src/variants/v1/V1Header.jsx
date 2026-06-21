@@ -10,12 +10,11 @@ export default function V1Header() {
 
   const navLinks = [
     { href: '#info', label: t('nav.home') },
-    { href: '#team', label: t('nav.about') },
   ]
 
   return (
     <header className="sticky top-0 z-40 bg-white border-b border-[#E2DDD8] shadow-sm">
-      <div className="max-w-6xl mx-auto px-5 sm:px-8">
+      <div className="max-w-7xl mx-auto px-5 sm:px-10">
         <div className="flex items-center justify-between h-16">
 
           <a href="#info" className="flex items-center gap-3 min-w-0">

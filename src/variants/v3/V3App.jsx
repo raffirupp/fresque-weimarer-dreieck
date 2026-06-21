@@ -1,7 +1,6 @@
 import { ModalProvider } from '../../context/ModalContext'
 import V3Header from './V3Header'
 import V3Hero from './V3Hero'
-import V3Team from './V3Team'
 import V3Footer from './V3Footer'
 import CardGallery from '../../components/CardGallery'
 import ContactModal from '../../components/ContactModal'
@@ -25,7 +24,6 @@ export default function V3App() {
         <main>
           <V3Hero />
           <CardGallery variant="v3" />
-          <V3Team />
         </main>
         <V3Footer />
         <ContactModal />

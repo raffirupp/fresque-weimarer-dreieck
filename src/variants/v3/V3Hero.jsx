@@ -8,7 +8,7 @@ export default function V3Hero() {
   return (
     <section id="v3-info">
       {/* Large editorial hero */}
-      <div className="max-w-5xl mx-auto px-6 sm:px-10 pt-20 pb-16">
+      <div className="max-w-6xl mx-auto px-6 sm:px-10 pt-20 pb-16">
         <div className="mb-12 flex items-center gap-4">
           <div className="h-px flex-1" style={{ background: '#D4C5A9' }} aria-hidden="true" />
           <span className="text-[10px] tracking-[0.25em] uppercase" style={{ color: '#92400E' }}>

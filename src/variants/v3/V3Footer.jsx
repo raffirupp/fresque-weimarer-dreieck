@@ -6,7 +6,7 @@ export default function V3Footer() {
 
   return (
     <footer className="border-t" style={{ borderColor: '#D4C5A9', background: '#F7F5F0' }}>
-      <div className="max-w-5xl mx-auto px-6 sm:px-10 py-14">
+      <div className="max-w-6xl mx-auto px-6 sm:px-10 py-14">
         <div className="grid sm:grid-cols-3 gap-10 mb-12">
           <div>
             <p

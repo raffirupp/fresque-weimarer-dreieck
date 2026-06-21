@@ -34,7 +34,7 @@ export default function V2Scrolly() {
       {sections.map((section, idx) => (
         <div
           key={section.key}
-          className={`max-w-6xl mx-auto px-5 sm:px-8 py-16 sm:py-24 grid sm:grid-cols-2 gap-12 items-center ${section.reverse ? 'sm:[&>*:first-child]:order-2' : ''}`}
+          className={`max-w-7xl mx-auto px-5 sm:px-10 py-16 sm:py-24 grid sm:grid-cols-2 gap-12 items-center ${section.reverse ? 'sm:[&>*:first-child]:order-2' : ''}`}
         >
           {/* Text side */}
           <div>
@@ -62,7 +62,7 @@ export default function V2Scrolly() {
             <img
               src={section.cardImg}
               alt={section.cardAlt}
-              className="w-full max-w-sm rounded-2xl shadow-xl object-contain"
+              className="w-full max-w-lg rounded-2xl shadow-xl object-contain"
               style={{ transform: section.reverse ? 'rotate(1.5deg)' : 'rotate(-1.5deg)' }}
             />
           </div>
