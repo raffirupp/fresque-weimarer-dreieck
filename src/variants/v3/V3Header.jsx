@@ -1,14 +1,15 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import LanguageSwitcher from '../../components/LanguageSwitcher'
+import { useModal } from '../../context/ModalContext'
 
 export default function V3Header() {
   const { t } = useTranslation()
+  const { openModal } = useModal()
   const [menuOpen, setMenuOpen] = useState(false)
 
   const navLinks = [
     { href: '#v3-info', label: t('nav.home') },
-    { href: '#v3-downloads', label: t('nav.downloads') },
     { href: '#v3-team', label: t('nav.about') },
   ]
 
@@ -37,6 +38,13 @@ export default function V3Header() {
                 {link.label}
               </a>
             ))}
+            <button
+              onClick={openModal}
+              className="text-sm font-medium border-b-2 pb-0.5 transition-colors hover:opacity-70"
+              style={{ color: '#1C1917', borderColor: '#92400E' }}
+            >
+              {t('nav.downloads')}
+            </button>
           </nav>
 
           <div className="flex items-center gap-3">
@@ -48,6 +56,7 @@ export default function V3Header() {
               className="md:hidden p-1.5 v3-muted hover:text-stone-900 transition-colors"
               style={{ color: '#78716C' }}
               onClick={() => setMenuOpen(o => !o)}
+              aria-label={menuOpen ? 'Menü schließen' : 'Menü öffnen'}
             >
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                 {menuOpen ? (
@@ -57,9 +66,9 @@ export default function V3Header() {
                   </>
                 ) : (
                   <>
-                    <line x1="3" y1="5" width="14" y2="5" x2="17" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                    <line x1="3" y1="10" width="14" y2="10" x2="17" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                    <line x1="3" y1="15" width="14" y2="15" x2="17" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                    <line x1="3" y1="5" x2="17" y2="5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                    <line x1="3" y1="10" x2="17" y2="10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                    <line x1="3" y1="15" x2="17" y2="15" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
                   </>
                 )}
               </svg>
@@ -68,7 +77,7 @@ export default function V3Header() {
         </div>
 
         {menuOpen && (
-          <nav className="md:hidden pb-4 pt-2 border-t" style={{ borderColor: '#D4C5A9' }}>
+          <nav className="md:hidden pb-4 pt-2 border-t flex flex-col gap-1" style={{ borderColor: '#D4C5A9' }}>
             {navLinks.map(link => (
               <a
                 key={link.href}
@@ -80,6 +89,13 @@ export default function V3Header() {
                 {link.label}
               </a>
             ))}
+            <button
+              onClick={() => { setMenuOpen(false); openModal() }}
+              className="mt-1 text-left py-2 text-sm font-medium"
+              style={{ color: '#1C1917' }}
+            >
+              {t('nav.downloads')} →
+            </button>
           </nav>
         )}
       </div>

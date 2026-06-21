@@ -1,7 +1,9 @@
 import { useTranslation } from 'react-i18next'
+import { useModal } from '../../context/ModalContext'
 
 export default function V3Hero() {
   const { t } = useTranslation()
+  const { openModal } = useModal()
 
   return (
     <section id="v3-info">
@@ -15,7 +17,7 @@ export default function V3Hero() {
           <div className="h-px flex-1" style={{ background: '#D4C5A9' }} aria-hidden="true" />
         </div>
 
-        {/* Big number watermark */}
+        {/* Big letter watermark */}
         <div className="relative">
           <div
             className="absolute -top-8 -left-4 text-[180px] font-black leading-none select-none pointer-events-none"
@@ -54,16 +56,16 @@ export default function V3Hero() {
                 <p className="text-sm leading-relaxed" style={{ color: '#78716C' }}>{t('hero.howText')}</p>
               </div>
             </div>
-            <a
-              href="#v3-downloads"
-              className="inline-flex items-center gap-3 mt-8 text-sm font-medium border-b-2 pb-0.5 w-fit transition-colors hover:gap-4"
+            <button
+              onClick={openModal}
+              className="inline-flex items-center gap-3 mt-8 text-sm font-medium border-b-2 pb-0.5 w-fit transition-opacity hover:opacity-70"
               style={{ color: '#1C1917', borderColor: '#92400E' }}
             >
               {t('hero.ctaDownload')}
               <svg width="14" height="10" viewBox="0 0 14 10" fill="none" aria-hidden="true">
                 <path d="M9 1l4 4-4 4M1 5h12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
       </div>

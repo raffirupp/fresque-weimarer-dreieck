@@ -1,14 +1,16 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import LanguageSwitcher from '../../components/LanguageSwitcher'
+import { useModal } from '../../context/ModalContext'
 
 export default function V2Header() {
   const { t } = useTranslation()
+  const { openModal } = useModal()
   const [menuOpen, setMenuOpen] = useState(false)
 
   const navLinks = [
     { href: '#v2-info', label: t('nav.home') },
-    { href: '#v2-downloads', label: t('nav.downloads') },
+    { href: '#v2-scrolly', label: t('nav.about') },
   ]
 
   return (
@@ -31,12 +33,12 @@ export default function V2Header() {
                 {link.label}
               </a>
             ))}
-            <a
-              href="#v2-downloads"
+            <button
+              onClick={openModal}
               className="bg-orange-400 hover:bg-orange-500 text-white text-sm font-bold px-4 py-2 rounded-full transition-colors"
             >
               {t('hero.ctaDownload')} →
-            </a>
+            </button>
           </nav>
 
           <div className="flex items-center gap-2">
@@ -48,6 +50,7 @@ export default function V2Header() {
               className="md:hidden p-1.5 text-violet-200 hover:text-white transition-colors"
               onClick={() => setMenuOpen(o => !o)}
               aria-expanded={menuOpen}
+              aria-label={menuOpen ? 'Menü schließen' : 'Menü öffnen'}
             >
               <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
                 {menuOpen ? (
@@ -79,13 +82,12 @@ export default function V2Header() {
                 {link.label}
               </a>
             ))}
-            <a
-              href="#v2-downloads"
-              onClick={() => setMenuOpen(false)}
-              className="mt-2 inline-block self-start bg-orange-400 text-white text-sm font-bold px-4 py-2 rounded-full"
+            <button
+              onClick={() => { setMenuOpen(false); openModal() }}
+              className="mt-2 self-start bg-orange-400 text-white text-sm font-bold px-4 py-2 rounded-full"
             >
               {t('hero.ctaDownload')} →
-            </a>
+            </button>
           </nav>
         )}
       </div>

@@ -36,30 +36,41 @@
   },
   "downloads": {
     "title": "Materiały",
-    "subtitle": "Wszystkie materiały są bezpłatne i mogą być drukowane. Pobierz je i zacznij organizować własny warsztat.",
+    "subtitle": "Wszystkie materiały są bezpłatne i do druku. Wypełnij formularz, aby uzyskać natychmiastowy dostęp.",
     "downloadButton": "Pobierz",
-    "gate": {
-      "title": "Pobierz bezpłatne materiały",
-      "text": "Podaj swój adres e-mail, aby uzyskać dostęp do wszystkich materiałów. Będziemy Cię informować o aktualizacjach i nowych zasobach.",
-      "placeholder": "twoj@email.pl",
-      "button": "Odblokuj dostęp",
-      "success": "Dziękujemy! Możesz teraz pobrać wszystkie materiały.",
-      "privacy": "Nie udostępniamy Twojego adresu e-mail osobom trzecim."
-    },
+    "openButton": "Otwórz",
+    "comingSoon": "Wkrótce dostępne",
     "items": {
-      "spielanleitung": {
-        "title": "Instrukcja gry",
-        "desc": "Szczegółowa instrukcja gry dla moderatorów i uczestników. Zawiera zasady, wskazówki metodyczne i pytania do refleksji."
-      },
       "karten": {
         "title": "Zestaw kart",
-        "desc": "Kompletny zestaw kart do druku w formacie A4. Zawiera karty tematyczne, karty refleksji i karty wydarzeń historycznych."
+        "desc": "Kompletny zestaw kart do druku. Zawiera karty tematyczne, karty refleksji i karty wydarzeń historycznych dla wszystkich trzech krajów."
       },
       "moderationsleitfaden": {
         "title": "Przewodnik moderatora",
-        "desc": "Szczegółowy przewodnik krok po kroku dla moderatorów. Zawiera sugestie pytań, wskazówki czasowe i opcje adaptacji."
+        "desc": "Przewodnik krok po kroku dla moderatorów z harmonogramem, propozycjami pytań i wskazówkami metodycznymi."
       }
     }
+  },
+  "contact": {
+    "title": "Pobierz materiały",
+    "subtitle": "Wypełnij krótki formularz – otrzymasz natychmiastowy dostęp do wszystkich materiałów w wybranym języku.",
+    "langLabel": "W jakim języku chcecie przeprowadzić Fresk?",
+    "field_einsatzzweck": "Jak planujecie wykorzystać Fresk?",
+    "placeholder_einsatzzweck": "np. warsztat szkolny, organizacja młodzieżowa, edukacja obywatelska ...",
+    "field_land": "W jakim kraju odbędzie się warsztat?",
+    "placeholder_land": "np. Polska, Niemcy, Francja ...",
+    "field_zielgruppe": "Grupa docelowa i wiek",
+    "placeholder_zielgruppe": "np. uczniowie, 14–18 lat",
+    "field_partner": "Partnerzy współpracy (opcjonalnie)",
+    "placeholder_partner": "np. PNWM, partnerstwo miast, szkoła ...",
+    "field_email": "Wasz adres kontaktowy",
+    "placeholder_email": "wasz@email.pl",
+    "button": "Odblokuj materiały",
+    "sending": "Wysyłanie ...",
+    "success_title": "Dziękujemy!",
+    "success_text": "Oto Wasze materiały w wybranym języku. Powodzenia na warsztacie!",
+    "error": "Coś poszło nie tak. Proszę spróbować ponownie.",
+    "privacy": "Wasze dane są wykorzystywane wyłącznie wewnętrznie i nie są przekazywane osobom trzecim."
   },
   "team": {
     "title": "O nas",

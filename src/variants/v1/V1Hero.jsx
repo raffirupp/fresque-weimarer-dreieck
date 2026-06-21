@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { useModal } from '../../context/ModalContext'
 
 function StatBadge({ number, label }) {
   return (
@@ -22,6 +23,7 @@ function InfoCard({ title, text, accentColor }) {
 
 export default function V1Hero() {
   const { t } = useTranslation()
+  const { openModal } = useModal()
 
   return (
     <section id="info">
@@ -43,8 +45,8 @@ export default function V1Hero() {
           <p className="text-base text-[#5A6070] max-w-2xl leading-relaxed mb-10">{t('hero.intro')}</p>
 
           <div className="flex flex-wrap gap-3 items-center mb-12">
-            <a
-              href="#downloads"
+            <button
+              onClick={openModal}
               className="inline-flex items-center gap-2 bg-[#1E3A5F] text-white text-sm font-semibold px-6 py-3 rounded-lg transition-colors hover:bg-[#122848]"
               style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}
             >
@@ -53,7 +55,7 @@ export default function V1Hero() {
                 <path d="M7 1v8M4 6l3 3 3-3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 <path d="M2 11h10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
               </svg>
-            </a>
+            </button>
             <a href="#team" className="text-sm font-medium text-[#1E3A5F] hover:underline underline-offset-2">
               {t('nav.about')} →
             </a>
@@ -73,7 +75,7 @@ export default function V1Hero() {
           <div className="grid sm:grid-cols-3 gap-5">
             <InfoCard title={t('hero.whatIsTitle')} text={t('hero.whatIsText')} accentColor="#B8860B" />
             <InfoCard title={t('hero.forWhomTitle')} text={t('hero.forWhomText')} accentColor="#7A2F3E" />
-            <InfoCard title={t('hero.howTitle')} text={t('hero.howText')} accentColor="#B85448" />
+            <InfoCard title={t('hero.howTitle')} text={t('hero.howText')} accentColor="#1E3A5F" />
           </div>
         </div>
       </div>

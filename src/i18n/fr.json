@@ -36,30 +36,41 @@
   },
   "downloads": {
     "title": "Matériaux",
-    "subtitle": "Tous les matériaux sont gratuits et imprimables. Téléchargez-les et lancez votre propre atelier.",
+    "subtitle": "Tous les matériaux sont gratuits et imprimables. Remplissez le formulaire pour y accéder immédiatement.",
     "downloadButton": "Télécharger",
-    "gate": {
-      "title": "Obtenir les matériaux gratuits",
-      "text": "Entrez votre adresse e-mail pour télécharger tous les matériaux. Nous vous informerons des mises à jour et nouvelles ressources.",
-      "placeholder": "votre@email.fr",
-      "button": "Débloquer l'accès",
-      "success": "Merci ! Vous pouvez maintenant télécharger tous les matériaux.",
-      "privacy": "Nous ne partageons pas votre e-mail avec des tiers."
-    },
+    "openButton": "Ouvrir",
+    "comingSoon": "Bientôt disponible",
     "items": {
-      "spielanleitung": {
-        "title": "Instructions du jeu",
-        "desc": "Guide détaillé pour les animateurs et les participants. Contient les règles, des conseils méthodiques et des questions de réflexion."
-      },
       "karten": {
         "title": "Jeu de cartes",
-        "desc": "Jeu de cartes complet et imprimable en format A4. Contient des cartes thématiques, des cartes de réflexion et des cartes d'événements historiques."
+        "desc": "Jeu de cartes complet et imprimable. Contient des cartes thématiques, des cartes de réflexion et des cartes d'événements historiques pour les trois pays."
       },
       "moderationsleitfaden": {
         "title": "Guide de facilitation",
-        "desc": "Guide détaillé étape par étape pour les animateurs. Avec des suggestions de questions, une planification du temps et des options d'adaptation."
+        "desc": "Guide étape par étape pour les animateurs avec planification du temps, suggestions de questions et conseils méthodiques."
       }
     }
+  },
+  "contact": {
+    "title": "Obtenir les matériaux",
+    "subtitle": "Remplissez le court formulaire – vous accéderez immédiatement à tous les matériaux dans la langue choisie.",
+    "langLabel": "Dans quelle langue souhaitez-vous animer la Fresque ?",
+    "field_einsatzzweck": "Comment prévoyez-vous d'utiliser la Fresque ?",
+    "placeholder_einsatzzweck": "ex. atelier scolaire, association de jeunesse, éducation civique, atelier citoyen ...",
+    "field_land": "Dans quel pays aura lieu l'atelier ?",
+    "placeholder_land": "ex. France, Allemagne, Pologne ...",
+    "field_zielgruppe": "Public cible & âge",
+    "placeholder_zielgruppe": "ex. lycéens, 14–18 ans",
+    "field_partner": "Partenaires de coopération (optionnel)",
+    "placeholder_partner": "ex. OFAJ, jumelage, école ...",
+    "field_email": "Votre adresse de contact",
+    "placeholder_email": "votre@email.fr",
+    "button": "Débloquer les matériaux",
+    "sending": "Envoi en cours ...",
+    "success_title": "Merci beaucoup !",
+    "success_text": "Voici vos matériaux dans la langue choisie. Bon atelier !",
+    "error": "Une erreur s'est produite. Veuillez réessayer.",
+    "privacy": "Vos données sont utilisées uniquement en interne et ne sont pas transmises à des tiers."
   },
   "team": {
     "title": "À propos",

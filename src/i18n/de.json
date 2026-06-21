@@ -36,30 +36,41 @@
   },
   "downloads": {
     "title": "Materialien",
-    "subtitle": "Alle Materialien sind kostenlos und druckbar. Lade sie herunter und starte deinen eigenen Workshop.",
+    "subtitle": "Alle Materialien sind kostenlos und druckbar. Füllt das Formular aus und ihr erhaltet sofort Zugang.",
     "downloadButton": "Herunterladen",
-    "gate": {
-      "title": "Kostenlose Materialien erhalten",
-      "text": "Gib deine E-Mail-Adresse ein, um alle Materialien herunterladen zu können. Wir informieren dich über Updates und neue Ressourcen.",
-      "placeholder": "deine@email.de",
-      "button": "Zugang freischalten",
-      "success": "Danke! Du kannst jetzt alle Materialien herunterladen.",
-      "privacy": "Wir geben deine E-Mail nicht weiter."
-    },
+    "openButton": "Öffnen",
+    "comingSoon": "Demnächst verfügbar",
     "items": {
-      "spielanleitung": {
-        "title": "Spielanleitung",
-        "desc": "Ausführliche Anleitung für Moderator:innen und Teilnehmende. Enthält Regeln, methodische Hinweise und Reflexionsfragen."
-      },
       "karten": {
         "title": "Karten-Set",
-        "desc": "Vollständiges, druckbares Karten-Set im A4-Format. Enthält Themenkarten, Reflexionskarten und historische Ereigniskarten."
+        "desc": "Vollständiges, druckbares Karten-Set. Enthält Themenkarten, Reflexionskarten und historische Ereigniskarten für alle drei Länder."
       },
       "moderationsleitfaden": {
         "title": "Moderationsleitfaden",
-        "desc": "Detaillierter Schritt-für-Schritt-Leitfaden für Moderator:innen. Mit Fragenvorschlägen, Zeitplanung und Anpassungsoptionen."
+        "desc": "Schritt-für-Schritt-Leitfaden für Moderator:innen mit Zeitplanung, Fragenvorschlägen und methodischen Hinweisen."
       }
     }
+  },
+  "contact": {
+    "title": "Materialien erhalten",
+    "subtitle": "Füllt das kurze Formular aus – ihr erhaltet sofort Zugang zu allen Materialien in der gewählten Sprache.",
+    "langLabel": "In welcher Sprache möchtet ihr die Fresque durchführen?",
+    "field_einsatzzweck": "Wie plant ihr die Fresque einzusetzen?",
+    "placeholder_einsatzzweck": "z.B. Schulworkshop, Jugendverband, politische Bildung, Bürgerworkshop ...",
+    "field_land": "In welchem Land findet der Workshop statt?",
+    "placeholder_land": "z.B. Deutschland, Frankreich, Polen ...",
+    "field_zielgruppe": "Zielgruppe & Alter",
+    "placeholder_zielgruppe": "z.B. Schüler:innen, 14–18 Jahre",
+    "field_partner": "Kooperationspartner (optional)",
+    "placeholder_partner": "z.B. DFJW, Städtepartnerschaft, Schule ...",
+    "field_email": "Eure Kontaktadresse",
+    "placeholder_email": "eure@email.de",
+    "button": "Materialien freischalten",
+    "sending": "Wird gesendet ...",
+    "success_title": "Vielen Dank!",
+    "success_text": "Hier sind eure Materialien in der gewählten Sprache. Viel Erfolg beim Workshop!",
+    "error": "Etwas ist schiefgelaufen. Bitte versucht es erneut.",
+    "privacy": "Eure Daten werden nur intern genutzt und nicht an Dritte weitergegeben."
   },
   "team": {
     "title": "Über uns",

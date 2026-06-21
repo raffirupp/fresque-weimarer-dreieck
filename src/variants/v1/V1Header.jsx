@@ -1,14 +1,15 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import LanguageSwitcher from '../../components/LanguageSwitcher'
+import { useModal } from '../../context/ModalContext'
 
 export default function V1Header() {
   const { t } = useTranslation()
+  const { openModal } = useModal()
   const [menuOpen, setMenuOpen] = useState(false)
 
   const navLinks = [
     { href: '#info', label: t('nav.home') },
-    { href: '#downloads', label: t('nav.downloads') },
     { href: '#team', label: t('nav.about') },
   ]
 
@@ -37,6 +38,13 @@ export default function V1Header() {
                 {link.label}
               </a>
             ))}
+            <button
+              onClick={openModal}
+              className="text-sm font-semibold text-white bg-[#1E3A5F] hover:bg-[#122848] px-4 py-2 rounded-lg transition-colors"
+              style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}
+            >
+              {t('nav.downloads')}
+            </button>
           </nav>
 
           <div className="flex items-center gap-3">
@@ -77,6 +85,12 @@ export default function V1Header() {
                 {link.label}
               </a>
             ))}
+            <button
+              onClick={() => { setMenuOpen(false); openModal() }}
+              className="mt-2 w-full text-left py-2.5 px-1 text-sm font-semibold text-[#1E3A5F]"
+            >
+              {t('nav.downloads')} →
+            </button>
           </nav>
         )}
       </div>

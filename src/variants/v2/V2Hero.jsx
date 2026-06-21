@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { useModal } from '../../context/ModalContext'
 
 function CountryBadge({ flag, name, color }) {
   return (
@@ -11,17 +12,17 @@ function CountryBadge({ flag, name, color }) {
 
 export default function V2Hero() {
   const { t } = useTranslation()
+  const { openModal } = useModal()
 
   return (
     <section id="v2-info" className="relative overflow-hidden">
-      {/* Gradient bg */}
       <div
         className="min-h-[90vh] flex flex-col justify-center px-5 sm:px-8 py-20 relative"
         style={{ background: 'linear-gradient(135deg, #4C1D95 0%, #5B21B6 40%, #7C3AED 70%, #C2410C 100%)' }}
       >
         {/* Decorative blobs */}
-        <div className="absolute top-16 right-8 w-64 h-64 rounded-full opacity-20" style={{ background: 'radial-gradient(circle, #F97316, transparent)' }} aria-hidden="true" />
-        <div className="absolute bottom-24 left-12 w-48 h-48 rounded-full opacity-15" style={{ background: 'radial-gradient(circle, #10B981, transparent)' }} aria-hidden="true" />
+        <div className="absolute top-16 right-8 w-64 h-64 rounded-full opacity-20 pointer-events-none" style={{ background: 'radial-gradient(circle, #F97316, transparent)' }} aria-hidden="true" />
+        <div className="absolute bottom-24 left-12 w-48 h-48 rounded-full opacity-15 pointer-events-none" style={{ background: 'radial-gradient(circle, #10B981, transparent)' }} aria-hidden="true" />
 
         <div className="max-w-6xl mx-auto w-full relative z-10">
           <div className="flex flex-wrap gap-2 mb-8">
@@ -38,13 +39,13 @@ export default function V2Hero() {
           <p className="text-base text-violet-300 max-w-xl leading-relaxed mb-10">{t('hero.intro')}</p>
 
           <div className="flex flex-wrap gap-3">
-            <a
-              href="#v2-downloads"
+            <button
+              onClick={openModal}
               className="inline-flex items-center gap-2 bg-orange-400 hover:bg-orange-500 text-white font-black text-base px-8 py-4 rounded-2xl transition-all hover:scale-105 shadow-lg shadow-orange-500/30"
             >
               {t('hero.ctaDownload')}
               <span aria-hidden="true">↓</span>
-            </a>
+            </button>
             <a
               href="#v2-scrolly"
               className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-bold text-base px-8 py-4 rounded-2xl transition-colors border border-white/20"
