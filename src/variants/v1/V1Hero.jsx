@@ -51,9 +51,6 @@ export default function V1Hero() {
                     <path d="M2 11h10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
                   </svg>
                 </button>
-                <a href="#team" className="text-sm font-medium text-[#1E3A5F] hover:underline underline-offset-2">
-                  {t('nav.about')} →
-                </a>
               </div>
             </div>
 
@@ -67,9 +64,9 @@ export default function V1Hero() {
               />
               <div className="grid grid-cols-3 gap-3 w-full max-w-md">
                 {[
-                  { n: '3', l: 'Länder / pays / kraje' },
-                  { n: "90'", l: 'Min. Workshop' },
-                  { n: '24', l: 'Max. Teiln.' },
+                  { n: '3', l: t('hero.statLaender') },
+                  { n: "90'", l: t('hero.statWorkshop') },
+                  { n: '24', l: t('hero.statTeiln') },
                 ].map(({ n, l }) => (
                   <div key={n} className="flex flex-col items-center text-center px-4 py-4 bg-white/70 rounded-lg border border-[#E2DDD8]">
                     <span className="text-2xl font-extrabold text-[#1E3A5F]" style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}>{n}</span>

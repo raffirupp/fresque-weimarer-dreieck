@@ -8,46 +8,41 @@ export default function V2Header() {
   const { openModal } = useModal()
   const [menuOpen, setMenuOpen] = useState(false)
 
-  const navLinks = [
-    { href: '#v2-info', label: t('nav.home') },
-    { href: '#v2-scrolly', label: t('nav.about') },
-  ]
-
   return (
-    <header className="sticky top-0 z-40 bg-violet-700 text-white">
+    <header className="sticky top-0 z-40" style={{ background: '#122848', borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
       <div className="max-w-7xl mx-auto px-5 sm:px-10">
         <div className="flex items-center justify-between h-16">
 
-          <a href="#v2-info" className="flex items-center gap-2.5 min-w-0">
-            <div className="w-8 h-8 rounded-lg bg-orange-400 flex items-center justify-center shrink-0">
-              <span className="text-white font-black text-sm">W</span>
+          <a href="#v2-info" className="flex items-center gap-3 min-w-0">
+            <div className="flex gap-0.5 h-5" aria-hidden="true">
+              <div className="w-1.5 rounded-full bg-[#B8860B]" />
+              <div className="w-1.5 rounded-full bg-white/50" />
+              <div className="w-1.5 rounded-full bg-[#7A2F3E]" />
             </div>
-            <span className="font-bold text-white text-sm sm:text-base leading-tight">
-              Weimarer Dreieck
-            </span>
+            <div className="flex flex-col min-w-0">
+              <span className="font-bold text-white text-base leading-tight truncate" style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}>
+                Fresque · Weimarer Dreieck
+              </span>
+              <span className="text-[10px] text-white/40 hidden sm:block tracking-wide uppercase">Generation Europa 2025</span>
+            </div>
           </a>
 
-          <nav className="hidden md:flex items-center gap-6" aria-label="Hauptnavigation">
-            {navLinks.map(link => (
-              <a key={link.href} href={link.href} className="text-sm font-medium text-violet-200 hover:text-white transition-colors">
-                {link.label}
-              </a>
-            ))}
-            <button
-              onClick={openModal}
-              className="bg-orange-400 hover:bg-orange-500 text-white text-sm font-bold px-4 py-2 rounded-full transition-colors"
-            >
-              {t('hero.ctaDownload')} →
-            </button>
-          </nav>
-
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-3">
             <LanguageSwitcher
-              activeClass="bg-white/20 text-white"
-              inactiveClass="text-violet-300 hover:text-white"
+              activeClass="bg-white/15 text-white"
+              inactiveClass="text-white/50 hover:text-white"
             />
             <button
-              className="md:hidden p-1.5 text-violet-200 hover:text-white transition-colors"
+              onClick={openModal}
+              className="hidden md:inline-flex text-sm font-bold text-white px-4 py-2 rounded-lg transition-colors"
+              style={{ background: '#B8860B' }}
+              onMouseEnter={e => { e.currentTarget.style.background = '#9A7009' }}
+              onMouseLeave={e => { e.currentTarget.style.background = '#B8860B' }}
+            >
+              {t('nav.downloads')}
+            </button>
+            <button
+              className="md:hidden p-1.5 text-white/70 hover:text-white transition-colors"
               onClick={() => setMenuOpen(o => !o)}
               aria-expanded={menuOpen}
               aria-label={menuOpen ? 'Menü schließen' : 'Menü öffnen'}
@@ -71,22 +66,13 @@ export default function V2Header() {
         </div>
 
         {menuOpen && (
-          <nav className="md:hidden border-t border-violet-600 pb-4 pt-2 flex flex-col gap-1">
-            {navLinks.map(link => (
-              <a
-                key={link.href}
-                href={link.href}
-                onClick={() => setMenuOpen(false)}
-                className="block py-2 px-1 text-sm font-medium text-violet-200 hover:text-white transition-colors"
-              >
-                {link.label}
-              </a>
-            ))}
+          <nav className="md:hidden border-t pb-4 pt-2 flex flex-col gap-1" style={{ borderColor: 'rgba(255,255,255,0.1)' }}>
             <button
               onClick={() => { setMenuOpen(false); openModal() }}
-              className="mt-2 self-start bg-orange-400 text-white text-sm font-bold px-4 py-2 rounded-full"
+              className="mt-2 self-start text-sm font-bold px-4 py-2 rounded-lg"
+              style={{ background: '#B8860B', color: '#fff' }}
             >
-              {t('hero.ctaDownload')} →
+              {t('nav.downloads')} →
             </button>
           </nav>
         )}

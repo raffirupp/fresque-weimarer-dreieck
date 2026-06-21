@@ -8,97 +8,79 @@ export default function V3Header() {
   const { openModal } = useModal()
   const [menuOpen, setMenuOpen] = useState(false)
 
-  const navLinks = [
-    { href: '#v3-info', label: t('nav.home') },
-    { href: '#v3-team', label: t('nav.about') },
-  ]
-
   return (
-    <header className="sticky top-0 z-40 border-b v3-border v3-bg" style={{ background: '#F7F5F0', borderColor: '#D4C5A9' }}>
-      <div className="max-w-6xl mx-auto px-6 sm:px-10">
-        <div className="flex items-center justify-between h-16">
+    <header style={{
+      position: 'sticky', top: 0, zIndex: 40,
+      background: '#fff',
+      borderBottom: '1px solid #e8e8e8',
+    }}>
+      <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 60 }}>
 
-          <a href="#v3-info" className="flex flex-col min-w-0">
-            <span className="v3-serif font-bold text-base leading-tight" style={{ color: '#1C1917' }}>
-              Fresque du Triangle de Weimar
-            </span>
-            <span className="text-[10px] tracking-widest uppercase v3-muted" style={{ color: '#78716C' }}>
-              Generation Europa 2025
-            </span>
-          </a>
-
-          <nav className="hidden md:flex items-center gap-8" aria-label="Navigation">
-            {navLinks.map(link => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="text-sm v3-muted hover:text-stone-900 transition-colors"
-                style={{ color: '#78716C' }}
-              >
-                {link.label}
-              </a>
-            ))}
-            <button
-              onClick={openModal}
-              className="text-sm font-medium border-b-2 pb-0.5 transition-colors hover:opacity-70"
-              style={{ color: '#1C1917', borderColor: '#92400E' }}
-            >
-              {t('nav.downloads')}
-            </button>
-          </nav>
-
-          <div className="flex items-center gap-3">
-            <LanguageSwitcher
-              activeClass="bg-stone-800 text-white"
-              inactiveClass="text-stone-400 hover:text-stone-700"
-            />
-            <button
-              className="md:hidden p-1.5 v3-muted hover:text-stone-900 transition-colors"
-              style={{ color: '#78716C' }}
-              onClick={() => setMenuOpen(o => !o)}
-              aria-label={menuOpen ? 'Menü schließen' : 'Menü öffnen'}
-            >
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                {menuOpen ? (
-                  <>
-                    <line x1="4" y1="4" x2="16" y2="16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                    <line x1="16" y1="4" x2="4" y2="16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                  </>
-                ) : (
-                  <>
-                    <line x1="3" y1="5" x2="17" y2="5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                    <line x1="3" y1="10" x2="17" y2="10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                    <line x1="3" y1="15" x2="17" y2="15" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                  </>
-                )}
-              </svg>
-            </button>
+        <a href="#v3-top" style={{ textDecoration: 'none' }}>
+          <div style={{ fontSize: 12, fontWeight: 700, letterSpacing: '0.04em', color: '#111', lineHeight: 1.3 }}>
+            Fresque · Weimarer Dreieck
           </div>
-        </div>
+          <div style={{ fontSize: 9, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#aaa', marginTop: 1 }}>
+            Generation Europa 2025
+          </div>
+        </a>
 
-        {menuOpen && (
-          <nav className="md:hidden pb-4 pt-2 border-t flex flex-col gap-1" style={{ borderColor: '#D4C5A9' }}>
-            {navLinks.map(link => (
-              <a
-                key={link.href}
-                href={link.href}
-                onClick={() => setMenuOpen(false)}
-                className="block py-2 text-sm"
-                style={{ color: '#78716C' }}
-              >
-                {link.label}
-              </a>
-            ))}
-            <button
-              onClick={() => { setMenuOpen(false); openModal() }}
-              className="mt-1 text-left py-2 text-sm font-medium"
-              style={{ color: '#1C1917' }}
-            >
-              {t('nav.downloads')} →
-            </button>
-          </nav>
-        )}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 20 }}>
+          <LanguageSwitcher
+            activeClass="font-bold text-black"
+            inactiveClass="text-gray-400 hover:text-black"
+          />
+          <button
+            onClick={openModal}
+            className="hidden md:inline-block"
+            style={{
+              fontSize: 11, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase',
+              padding: '9px 22px', border: '1.5px solid #111', background: '#111', color: '#fff',
+              cursor: 'pointer', transition: 'background 0.15s, color 0.15s',
+            }}
+            onMouseEnter={e => { e.currentTarget.style.background = '#fff'; e.currentTarget.style.color = '#111' }}
+            onMouseLeave={e => { e.currentTarget.style.background = '#111'; e.currentTarget.style.color = '#fff' }}
+          >
+            {t('nav.downloads')}
+          </button>
+          <button
+            className="md:hidden"
+            onClick={() => setMenuOpen(o => !o)}
+            style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 4, color: '#111' }}
+            aria-label={menuOpen ? 'Menü schließen' : 'Menü öffnen'}
+          >
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              {menuOpen ? (
+                <>
+                  <line x1="4" y1="4" x2="16" y2="16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                  <line x1="16" y1="4" x2="4" y2="16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                </>
+              ) : (
+                <>
+                  <line x1="3" y1="5" x2="17" y2="5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                  <line x1="3" y1="10" x2="17" y2="10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                  <line x1="3" y1="15" x2="17" y2="15" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                </>
+              )}
+            </svg>
+          </button>
+        </div>
       </div>
+
+      {menuOpen && (
+        <div style={{ borderTop: '1px solid #e8e8e8', padding: '16px 40px 20px', background: '#fff' }}>
+          <button
+            onClick={() => { setMenuOpen(false); openModal() }}
+            style={{
+              fontSize: 11, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase',
+              padding: '9px 22px', border: '1.5px solid #111', background: '#111', color: '#fff',
+              cursor: 'pointer',
+            }}
+          >
+            {t('nav.downloads')}
+          </button>
+        </div>
+      )}
     </header>
   )
 }

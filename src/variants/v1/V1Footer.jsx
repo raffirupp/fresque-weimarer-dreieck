@@ -7,7 +7,7 @@ export default function V1Footer() {
   return (
     <footer className="bg-[#122848] text-white">
       <div className="max-w-7xl mx-auto px-5 sm:px-10 pt-12 pb-8">
-        <div className="grid sm:grid-cols-3 gap-8 mb-10">
+        <div className="grid sm:grid-cols-2 gap-8 mb-10">
           <div>
             <div className="flex gap-1 h-4 mb-4" aria-hidden="true">
               <div className="w-1.5 rounded-full bg-[#B8860B]" />
@@ -17,8 +17,15 @@ export default function V1Footer() {
             <p className="text-xs font-bold tracking-widest text-[#B8860B] uppercase mb-3" style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}>
               {t('footer.orgName')}
             </p>
-            <div className="w-24 h-10 rounded bg-white/10 flex items-center justify-center text-white/30 text-xs">
-              Logo
+            <div className="flex items-center gap-2.5 mt-1">
+              <div className="flex gap-0.5 h-5" aria-hidden="true">
+                <div className="w-1.5 rounded-full bg-[#B8860B]" />
+                <div className="w-1.5 rounded-full bg-white/50" />
+                <div className="w-1.5 rounded-full bg-[#7A2F3E]" />
+              </div>
+              <span className="text-xs text-white/40" style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}>
+                Fresque · Weimarer Dreieck
+              </span>
             </div>
           </div>
 
@@ -26,16 +33,7 @@ export default function V1Footer() {
             <h3 className="text-xs font-bold text-white uppercase tracking-widest mb-3" style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}>
               {t('footer.imprintTitle')}
             </h3>
-            <p className="text-sm text-white/50 leading-relaxed">{t('footer.imprintText')}</p>
-          </div>
-
-          <div>
-            <h3 className="text-xs font-bold text-white uppercase tracking-widest mb-3" style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}>
-              {t('footer.contactTitle')}
-            </h3>
-            <a href={`mailto:${t('footer.contactEmail')}`} className="text-sm text-white/50 hover:text-white transition-colors">
-              {t('footer.contactEmail')}
-            </a>
+            <p className="text-sm text-white/60 leading-relaxed">{t('footer.imprintText')}</p>
           </div>
         </div>
 

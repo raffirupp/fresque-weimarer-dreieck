@@ -84,24 +84,24 @@ const variantStyles = {
     flipBtn: 'inline-flex items-center gap-1.5 text-xs font-bold text-violet-700 bg-violet-50 hover:bg-violet-100 px-3 py-1.5 rounded-xl transition-colors',
   },
   v3: {
-    section: 'border-t',
-    sectionStyle: { borderColor: '#D4C5A9' },
-    inner: 'max-w-6xl mx-auto px-6 sm:px-10 py-16',
-    heading: 'text-2xl font-bold',
-    headingFont: "'Playfair Display', Georgia, serif",
-    headingColor: '#1C1917',
+    section: 'bg-white border-t border-gray-100',
+    inner: 'max-w-6xl mx-auto px-6 sm:px-10 py-24',
+    heading: 'text-2xl font-bold tracking-tight',
+    headingFont: "'Helvetica Neue', Arial, sans-serif",
+    headingColor: '#111',
     subtitle: 'text-sm leading-relaxed mb-10 max-w-xl',
-    subtitleColor: '#78716C',
-    navBtn: 'p-2.5 border hover:bg-[#F7F5F0] transition-colors disabled:opacity-30 disabled:cursor-not-allowed',
-    navBtnStyle: { borderColor: '#D4C5A9', color: '#1C1917' },
+    subtitleColor: '#666',
+    navBtn: 'p-2.5 border border-gray-200 hover:bg-gray-50 transition-colors disabled:opacity-30 disabled:cursor-not-allowed',
+    navBtnStyle: { color: '#111' },
     counter: 'text-xs',
-    counterColor: '#D4C5A9',
+    counterColor: '#999',
     flipHint: 'text-xs',
-    flipHintColor: '#78716C',
-    dotActive: '#92400E',
-    dotInactive: '#D4C5A9',
-    flipBtn: 'inline-flex items-center gap-1.5 text-xs font-medium border px-3 py-1.5 hover:bg-[#F7F5F0] transition-colors',
-    flipBtnStyle: { borderColor: '#D4C5A9', color: '#78716C' },
+    flipHintColor: '#666',
+    dotActive: '#B91C1C',
+    dotInactive: '#E5E7EB',
+    flipBtn: 'inline-flex items-center gap-1.5 text-xs font-semibold border border-gray-200 px-3 py-1.5 hover:bg-gray-50 transition-colors',
+    flipBtnStyle: { color: '#444' },
+    dividerBg: '#E5E7EB',
   },
 }
 
@@ -142,7 +142,7 @@ export default function CardGallery({ variant = 'v1' }) {
             <h2 className={s.heading} style={{ fontFamily: s.headingFont, color: s.headingColor }}>
               {headingText[lang]}
             </h2>
-            <div className="h-px flex-1" style={{ background: '#D4C5A9' }} aria-hidden="true" />
+            <div className="h-px flex-1" style={{ background: s.dividerBg || '#D4C5A9' }} aria-hidden="true" />
           </div>
         ) : (
           <h2 className={s.heading} style={{ fontFamily: s.headingFont }}>{headingText[lang]}</h2>
@@ -184,8 +184,8 @@ export default function CardGallery({ variant = 'v1' }) {
 
         {/* Flip card */}
         <div
-          className="w-full cursor-pointer"
-          style={{ perspective: '1200px', maxWidth: 640 }}
+          className="w-full cursor-pointer mx-auto"
+          style={{ perspective: '1200px', maxWidth: 720 }}
           onClick={flip}
           role="button"
           aria-label={flipped ? backLabel[lang] : frontLabel[lang]}

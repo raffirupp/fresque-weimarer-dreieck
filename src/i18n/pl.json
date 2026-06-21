@@ -15,7 +15,12 @@
     "forWhomTitle": "Dla kogo?",
     "forWhomText": "Dla liderów młodzieżowych, animatorów, nauczycieli i organizacji prowadzących warsztaty dla młodzieży w wieku 14–25 lat. Nie wymaga wcześniejszej wiedzy.",
     "howTitle": "Jak to działa?",
-    "howText": "Czas trwania: 90–120 minut. Liczba uczestników: 8–24 osoby. Potrzebny jest zestaw kart i moderator korzystający z naszego bezpłatnego przewodnika."
+    "howText": "Czas trwania: 90–120 minut. Uczestników: 8–24 osoby. Wszystkie materiały – zestaw kart i przewodnik moderatora – dostępne do bezpłatnego pobrania. Prosto i bez barier.",
+    "statLaender": "Kraje",
+    "statWorkshop": "Min. Warsztat",
+    "statTeiln": "Maks. ucz.",
+    "statFree": "Bezpłatnie",
+    "learnMore": "Dowiedz się więcej"
   },
   "scrolly": {
     "s1": {
@@ -93,7 +98,7 @@
   "footer": {
     "orgName": "Generation Europa 2025",
     "imprintTitle": "Impressum",
-    "imprintText": "Dane wydawcy zostaną tutaj uzupełnione.",
+    "imprintText": "Generation Europa jest projektem Niemiecko-Francuskiego Urzędu ds. Młodzieży (DFJW).",
     "contactTitle": "Kontakt",
     "contactEmail": "kontakt@example.org",
     "rights": "Wszelkie prawa zastrzeżone."

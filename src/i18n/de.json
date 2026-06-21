@@ -15,7 +15,12 @@
     "forWhomTitle": "Für wen?",
     "forWhomText": "Für Jugendleiter:innen, Lehrkräfte und Vereinskoordinator:innen, die Workshops für Jugendliche zwischen 14 und 25 Jahren leiten. Kein Vorwissen nötig.",
     "howTitle": "Wie läuft es ab?",
-    "howText": "Dauer: 90–120 Minuten. Teilnehmende: 8–24 Personen. Benötigt wird das Karten-Set und ein:e Moderator:in mit unserem kostenlosen Moderationsleitfaden."
+    "howText": "Dauer: 90–120 Minuten. Teilnehmende: 8–24 Personen. Alle Materialien – Karten-Set und Moderationsleitfaden – stehen kostenlos zum Download bereit. Direkt und ohne Hürden.",
+    "statLaender": "Länder",
+    "statWorkshop": "Min. Workshop",
+    "statTeiln": "Max. Teiln.",
+    "statFree": "Kostenlos",
+    "learnMore": "Mehr erfahren"
   },
   "scrolly": {
     "s1": {
@@ -93,7 +98,7 @@
   "footer": {
     "orgName": "Generation Europa 2025",
     "imprintTitle": "Impressum",
-    "imprintText": "Angaben gemäß §5 TMG werden hier ergänzt.",
+    "imprintText": "Generation Europa ist ein Projekt des Deutsch-Französischen Jugendwerks (DFJW).",
     "contactTitle": "Kontakt",
     "contactEmail": "kontakt@example.org",
     "rights": "Alle Rechte vorbehalten."

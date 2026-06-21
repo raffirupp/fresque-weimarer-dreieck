@@ -8,10 +8,6 @@ export default function V1Header() {
   const { openModal } = useModal()
   const [menuOpen, setMenuOpen] = useState(false)
 
-  const navLinks = [
-    { href: '#info', label: t('nav.home') },
-  ]
-
   return (
     <header className="sticky top-0 z-40 bg-white border-b border-[#E2DDD8] shadow-sm">
       <div className="max-w-7xl mx-auto px-5 sm:px-10">
@@ -31,23 +27,15 @@ export default function V1Header() {
             </div>
           </a>
 
-          <nav className="hidden md:flex items-center gap-7" aria-label="Hauptnavigation">
-            {navLinks.map(link => (
-              <a key={link.href} href={link.href} className="text-sm font-medium text-[#1A1A2E] hover:text-[#1E3A5F] transition-colors">
-                {link.label}
-              </a>
-            ))}
+          <div className="flex items-center gap-3">
+            <LanguageSwitcher />
             <button
               onClick={openModal}
-              className="text-sm font-semibold text-white bg-[#1E3A5F] hover:bg-[#122848] px-4 py-2 rounded-lg transition-colors"
+              className="hidden md:inline-flex text-sm font-semibold text-white bg-[#1E3A5F] hover:bg-[#122848] px-4 py-2 rounded-lg transition-colors"
               style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}
             >
               {t('nav.downloads')}
             </button>
-          </nav>
-
-          <div className="flex items-center gap-3">
-            <LanguageSwitcher />
             <button
               className="md:hidden p-1.5 text-[#1A1A2E] hover:text-[#1E3A5F] transition-colors"
               onClick={() => setMenuOpen(o => !o)}
@@ -74,19 +62,9 @@ export default function V1Header() {
 
         {menuOpen && (
           <nav className="md:hidden border-t border-[#E2DDD8] pb-3 pt-1" aria-label="Mobile Navigation">
-            {navLinks.map(link => (
-              <a
-                key={link.href}
-                href={link.href}
-                onClick={() => setMenuOpen(false)}
-                className="block py-2.5 px-1 text-sm font-medium text-[#1A1A2E] hover:text-[#1E3A5F] transition-colors"
-              >
-                {link.label}
-              </a>
-            ))}
             <button
               onClick={() => { setMenuOpen(false); openModal() }}
-              className="mt-2 w-full text-left py-2.5 px-1 text-sm font-semibold text-[#1E3A5F]"
+              className="block py-2.5 px-1 text-sm font-semibold text-[#1E3A5F]"
             >
               {t('nav.downloads')} →
             </button>

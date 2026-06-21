@@ -15,7 +15,12 @@
     "forWhomTitle": "Pour qui ?",
     "forWhomText": "Pour les animateurs de jeunesse, enseignants et coordinateurs d'associations qui organisent des ateliers pour les jeunes de 14 à 25 ans. Aucune connaissance préalable requise.",
     "howTitle": "Comment ça se passe ?",
-    "howText": "Durée : 90–120 minutes. Participants : 8–24 personnes. Il suffit du jeu de cartes et d'un·e animateur·rice avec notre guide de facilitation gratuit."
+    "howText": "Durée : 90–120 minutes. Participants : 8–24 personnes. Tous les matériaux – jeu de cartes et guide de facilitation – sont disponibles gratuitement en téléchargement. Directement et sans barrières.",
+    "statLaender": "Pays",
+    "statWorkshop": "Min. Atelier",
+    "statTeiln": "Max. part.",
+    "statFree": "Gratuit",
+    "learnMore": "En savoir plus"
   },
   "scrolly": {
     "s1": {
@@ -93,7 +98,7 @@
   "footer": {
     "orgName": "Generation Europa 2025",
     "imprintTitle": "Mentions légales",
-    "imprintText": "Les mentions légales complètes seront ajoutées ici.",
+    "imprintText": "Generation Europa est un projet de l'Office franco-allemand pour la Jeunesse (OFAJ).",
     "contactTitle": "Contact",
     "contactEmail": "contact@example.org",
     "rights": "Tous droits réservés."

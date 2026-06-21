@@ -5,52 +5,44 @@ export default function V3Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <footer className="border-t" style={{ borderColor: '#D4C5A9', background: '#F7F5F0' }}>
-      <div className="max-w-6xl mx-auto px-6 sm:px-10 py-14">
-        <div className="grid sm:grid-cols-3 gap-10 mb-12">
+    <footer style={{ borderTop: '1px solid #e8e8e8', background: '#fff' }}>
+      <div style={{ maxWidth: 1200, margin: '0 auto', padding: '64px 40px 40px' }}>
+
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 60, marginBottom: 48 }}>
           <div>
-            <p
-              className="font-bold text-base mb-2"
-              style={{ fontFamily: "'Playfair Display', Georgia, serif", color: '#1C1917' }}
-            >
-              {t('footer.orgName')}
-            </p>
-            <div
-              className="w-20 h-8 flex items-center justify-center text-xs"
-              style={{ background: '#E7E2DA', color: '#78716C' }}
-            >
-              Logo
+            <div style={{ fontSize: 12, fontWeight: 700, letterSpacing: '0.04em', color: '#111', marginBottom: 4 }}>
+              Fresque · Weimarer Dreieck
+            </div>
+            <div style={{ fontSize: 9, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#aaa', marginBottom: 20 }}>
+              Generation Europa 2025
+            </div>
+            <div style={{ display: 'flex', gap: 4 }}>
+              <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#B8860B' }} />
+              <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#1E3A5F' }} />
+              <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#7A2F3E' }} />
             </div>
           </div>
 
           <div>
-            <h3 className="text-[10px] tracking-widest uppercase mb-4" style={{ color: '#92400E' }}>
+            <div style={{ fontSize: 9, letterSpacing: '0.2em', textTransform: 'uppercase', color: '#aaa', marginBottom: 12, fontWeight: 700 }}>
               {t('footer.imprintTitle')}
-            </h3>
-            <p className="text-sm leading-relaxed" style={{ color: '#78716C' }}>{t('footer.imprintText')}</p>
-          </div>
-
-          <div>
-            <h3 className="text-[10px] tracking-widest uppercase mb-4" style={{ color: '#92400E' }}>
-              {t('footer.contactTitle')}
-            </h3>
-            <a
-              href={`mailto:${t('footer.contactEmail')}`}
-              className="text-sm transition-colors"
-              style={{ color: '#78716C' }}
-              onMouseEnter={e => { e.currentTarget.style.color = '#1C1917' }}
-              onMouseLeave={e => { e.currentTarget.style.color = '#78716C' }}
-            >
-              {t('footer.contactEmail')}
-            </a>
+            </div>
+            <p style={{ fontSize: 13, color: '#777', lineHeight: 1.7 }}>
+              {t('footer.imprintText')}
+            </p>
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 pt-8 border-t" style={{ borderColor: '#D4C5A9' }}>
-          <p className="text-xs" style={{ color: '#D4C5A9' }}>
+        <div style={{ borderTop: '1px solid #e8e8e8', paddingTop: 24, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <p style={{ fontSize: 11, color: '#bbb' }}>
             &copy; {year} {t('footer.orgName')}. {t('footer.rights')}
           </p>
-          <p className="text-xs" style={{ color: '#D4C5A9' }}>DE · FR · PL</p>
+          <div style={{ display: 'flex', gap: 2, fontSize: 16 }}>
+            <span title="Europäische Union">🇪🇺</span>
+            <span title="Deutschland">🇩🇪</span>
+            <span title="France">🇫🇷</span>
+            <span title="Polska">🇵🇱</span>
+          </div>
         </div>
       </div>
     </footer>
