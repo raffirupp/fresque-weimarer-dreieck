@@ -1,9 +1,9 @@
 import { createClient } from '@supabase/supabase-js'
 
-const supabase = createClient(
-  import.meta.env.VITE_SUPABASE_URL,
-  import.meta.env.VITE_SUPABASE_ANON_KEY
-)
+const url = import.meta.env.VITE_SUPABASE_URL ?? ''
+const key = import.meta.env.VITE_SUPABASE_ANON_KEY ?? ''
+
+const supabase = url && key ? createClient(url, key) : null
 
 /**
  * Submit contact form data to Supabase (fresque_submissions table).
@@ -15,6 +15,13 @@ const supabase = createClient(
  * To view submissions: Supabase Dashboard → Table Editor → fresque_submissions
  */
 export async function submitContactForm(payload) {
+  if (!supabase) {
+    console.warn('[formService] Supabase not configured – storing locally')
+    localStorage.setItem('fresque_dev_submission', JSON.stringify({ ...payload, _at: new Date().toISOString() }))
+    await new Promise(r => setTimeout(r, 600))
+    return { ok: true }
+  }
+
   const { error } = await supabase
     .from('fresque_submissions')
     .insert({
