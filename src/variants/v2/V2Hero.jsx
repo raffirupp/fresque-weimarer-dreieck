@@ -43,13 +43,13 @@ export default function V2Hero() {
                   {t('hero.ctaDownload')}
                   <span aria-hidden="true">↓</span>
                 </button>
-                <a
-                  href="#v2-scrolly"
+                <button
+                  onClick={() => document.getElementById('v2-scrolly')?.scrollIntoView({ behavior: 'smooth' })}
                   className="inline-flex items-center gap-2 text-white/80 hover:text-white font-semibold text-sm px-7 py-3.5 rounded-xl transition-colors border"
                   style={{ borderColor: 'rgba(255,255,255,0.2)' }}
                 >
                   {t('hero.learnMore')}
-                </a>
+                </button>
               </div>
 
               {/* Stats row */}
