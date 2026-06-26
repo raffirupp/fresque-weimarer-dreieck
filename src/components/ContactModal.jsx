@@ -209,12 +209,14 @@ function FormView({ s, variant, onSuccess }) {
   const { t } = useTranslation()
   const [formLang, setFormLang] = useState('de')
   const [fields, setFields] = useState({ einsatzzweck: '', land: '', zielgruppe: '', partner: '', email: '' })
+  const [honeypot, setHoneypot] = useState('')
   const [status, setStatus] = useState('idle')
 
   const set = (key) => (e) => setFields(f => ({ ...f, [key]: e.target.value }))
 
   const handleSubmit = async (e) => {
     e.preventDefault()
+    if (honeypot) { onSuccess(formLang); return }
     setStatus('sending')
     const { ok } = await submitContactForm({ ...fields, language: formLang })
     if (ok) onSuccess(formLang)
@@ -247,6 +249,17 @@ function FormView({ s, variant, onSuccess }) {
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-4">
+        {/* Honeypot – hidden from humans, filled only by bots */}
+        <input
+          type="text"
+          name="website"
+          value={honeypot}
+          onChange={e => setHoneypot(e.target.value)}
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+          style={{ position: 'absolute', left: '-9999px', opacity: 0, height: 0 }}
+        />
         <div>
           <label className={s.labelCls} style={s.labelStyle}>{t('contact.field_einsatzzweck')}</label>
           <textarea
