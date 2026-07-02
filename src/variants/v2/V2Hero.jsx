@@ -52,20 +52,6 @@ export default function V2Hero() {
                 </button>
               </div>
 
-              {/* Stats row */}
-              <div className="flex flex-wrap gap-8 mt-14 pt-8 border-t" style={{ borderColor: 'rgba(255,255,255,0.1)' }}>
-                {[
-                  { n: '3', l: t('hero.statLaender'), color: '#B8860B' },
-                  { n: "90'", l: t('hero.statWorkshop'), color: '#FFFFFF' },
-                  { n: '24', l: t('hero.statTeiln'), color: '#FFFFFF' },
-                  { n: '100%', l: t('hero.statFree'), color: '#7A9FBF' },
-                ].map(({ n, l, color }) => (
-                  <div key={n}>
-                    <div className="text-3xl font-black" style={{ color }}>{n}</div>
-                    <div className="text-xs text-white/40 uppercase tracking-widest mt-1">{l}</div>
-                  </div>
-                ))}
-              </div>
             </div>
 
             {/* Right: card teaser */}
