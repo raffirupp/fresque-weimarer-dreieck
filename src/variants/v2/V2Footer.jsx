@@ -16,7 +16,7 @@ export default function V2Footer() {
                 <div className="w-1.5 rounded-full bg-[#7A2F3E]" />
               </div>
               <div>
-                <div className="font-black text-white text-sm" style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}>Fresque · Weimarer Dreieck</div>
+                <div className="font-black text-white text-sm" style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}>Fresko · Weimarer Dreieck</div>
                 <div className="text-[10px] text-white/40 tracking-wide uppercase">{t('footer.orgName')}</div>
               </div>
             </div>

@@ -24,7 +24,7 @@ export default function V1Footer() {
                 <div className="w-1.5 rounded-full bg-[#7A2F3E]" />
               </div>
               <span className="text-xs text-white/40" style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}>
-                Fresque · Weimarer Dreieck
+                Fresko · Weimarer Dreieck
               </span>
             </div>
           </div>
@@ -39,7 +39,7 @@ export default function V1Footer() {
 
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
           <p className="text-xs text-white/30">&copy; {year} {t('footer.orgName')}. {t('footer.rights')}</p>
-          <p className="text-xs text-white/20">Fresque zum Weimarer Dreieck</p>
+          <p className="text-xs text-white/20">Fresko zum Weimarer Dreieck</p>
         </div>
       </div>
     </footer>

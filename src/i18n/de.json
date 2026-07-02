@@ -6,11 +6,11 @@
   },
   "hero": {
     "tagline": "Generation Europa 2025",
-    "title": "Fresque zum Weimarer Dreieck",
+    "title": "Fresko zum Weimarer Dreieck",
     "subtitle": "Ein interaktiver Workshop über europäische Zusammenarbeit",
-    "intro": "Die Fresque zum Weimarer Dreieck ist ein Bildungswerkzeug für Jugendleiter:innen, das die Geschichte und Zukunft der Zusammenarbeit zwischen Deutschland, Frankreich und Polen auf spielerische Weise vermittelt. Geeignet für Jugendgruppen, Schulklassen und Bürgerworkshops.",
+    "intro": "Das Fresko zum Weimarer Dreieck ist ein Bildungswerkzeug für Jugendleiter:innen, das die Geschichte und Zukunft der Zusammenarbeit zwischen Deutschland, Frankreich und Polen auf spielerische Weise vermittelt. Geeignet für Jugendgruppen, Schulklassen und Bürgerworkshops.",
     "ctaDownload": "Materialien herunterladen",
-    "whatIsTitle": "Was ist die Fresque?",
+    "whatIsTitle": "Was ist das Fresko?",
     "whatIsText": "Ein kollaboratives Kartenspiel mit Diskussionsrunden und Gruppenreflexion. In 90 Minuten entdecken Teilnehmende gemeinsam Geschichte und Werte des Weimarer Dreiecks.",
     "forWhomTitle": "Für wen?",
     "forWhomText": "Für Jugendleiter:innen, Lehrkräfte und Vereinskoordinator:innen, die Workshops für Jugendliche zwischen 14 und 25 Jahren leiten. Kein Vorwissen nötig.",
@@ -24,14 +24,14 @@
   },
   "scrolly": {
     "s1": {
-      "label": "Was ist die Fresque?",
+      "label": "Was ist das Fresko?",
       "title": "Ein Workshop, der Europa zum Leben erweckt",
-      "text": "Die Fresque ist ein kollaboratives Kartenspiel für Jugendgruppen. In 90 Minuten entdecken Teilnehmende gemeinsam, was Deutschland, Frankreich und Polen verbindet – und wie sie Europa der Zukunft gestalten wollen."
+      "text": "Das Fresko ist ein kollaboratives Kartenspiel für Jugendgruppen. In 90 Minuten entdecken Teilnehmende gemeinsam, was Deutschland, Frankreich und Polen verbindet – und wie sie Europa der Zukunft gestalten wollen."
     },
     "s2": {
       "label": "Für wen?",
       "title": "Für Jugendliche von 14 bis 25 Jahren",
-      "text": "Jugendleiter:innen, Lehrkräfte und Vereinskoordinator:innen können die Fresque ohne Vorkenntnisse leiten. Alles, was du brauchst, ist das kostenlose Material und Lust auf gute Gespräche."
+      "text": "Jugendleiter:innen, Lehrkräfte und Vereinskoordinator:innen können das Fresko ohne Vorkenntnisse leiten. Alles, was du brauchst, ist das kostenlose Material und Lust auf gute Gespräche."
     },
     "s3": {
       "label": "Wie?",
@@ -59,8 +59,8 @@
   "contact": {
     "title": "Materialien erhalten",
     "subtitle": "Füllt das kurze Formular aus – ihr erhaltet sofort Zugang zu allen Materialien in der gewählten Sprache.",
-    "langLabel": "In welcher Sprache möchtet ihr die Fresque durchführen?",
-    "field_einsatzzweck": "Wie plant ihr die Fresque einzusetzen?",
+    "langLabel": "In welcher Sprache möchtet ihr das Fresko durchführen?",
+    "field_einsatzzweck": "Wie plant ihr das Fresko einzusetzen?",
     "placeholder_einsatzzweck": "z.B. Schulworkshop, Jugendverband, politische Bildung, Bürgerworkshop ...",
     "field_land": "In welchem Land findet der Workshop statt?",
     "placeholder_land": "z.B. Deutschland, Frankreich, Polen ...",
@@ -82,7 +82,7 @@
   },
   "team": {
     "title": "Über uns",
-    "subtitle": "Die Fresque zum Weimarer Dreieck wurde vom Team Generation Europa 2025 entwickelt – einer Organisation für europäische Bildung.",
+    "subtitle": "Das Fresko zum Weimarer Dreieck wurde vom Team Generation Europa 2025 entwickelt – einer Organisation für europäische Bildung.",
     "person1": {
       "role": "Projektleitung",
       "bio": "Platzhalter – Name und Kurzbiografie werden hier ergänzt."

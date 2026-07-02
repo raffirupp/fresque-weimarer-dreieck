@@ -21,7 +21,7 @@ export default function V2Header() {
             </div>
             <div className="flex flex-col min-w-0">
               <span className="font-bold text-white text-base leading-tight truncate" style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}>
-                Fresque · Weimarer Dreieck
+                Fresko · Weimarer Dreieck
               </span>
               <span className="text-[10px] text-white/40 hidden sm:block tracking-wide uppercase">Generation Europa 2025</span>
             </div>

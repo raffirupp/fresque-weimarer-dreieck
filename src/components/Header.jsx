@@ -41,7 +41,7 @@ export default function Header() {
               className="font-heading font-bold text-navy text-base sm:text-lg leading-tight truncate"
               style={{ fontFamily: 'var(--font-heading)' }}
             >
-              Fresque zum Weimarer Dreieck
+              Fresko zum Weimarer Dreieck
             </span>
             <span className="text-xs text-muted hidden sm:block">Generation Europa 2025</span>
           </a>

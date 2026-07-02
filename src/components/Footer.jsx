@@ -55,7 +55,7 @@ export default function Footer() {
             &copy; {year} {t('footer.orgName')}. {t('footer.rights')}
           </p>
           <p className="text-xs text-white/30">
-            Fresque zum Weimarer Dreieck
+            Fresko zum Weimarer Dreieck
           </p>
         </div>
       </div>

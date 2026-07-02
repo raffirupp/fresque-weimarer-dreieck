@@ -11,7 +11,7 @@ export default function V3Footer() {
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 60, marginBottom: 48 }}>
           <div>
             <div style={{ fontSize: 12, fontWeight: 700, letterSpacing: '0.04em', color: '#111', marginBottom: 4 }}>
-              Fresque · Weimarer Dreieck
+              Fresko · Weimarer Dreieck
             </div>
             <div style={{ fontSize: 9, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#aaa', marginBottom: 20 }}>
               Generation Europa 2025

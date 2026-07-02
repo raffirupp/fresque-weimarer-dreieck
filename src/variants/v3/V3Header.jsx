@@ -18,7 +18,7 @@ export default function V3Header() {
 
         <a href="#v3-top" style={{ textDecoration: 'none' }}>
           <div style={{ fontSize: 12, fontWeight: 700, letterSpacing: '0.04em', color: '#111', lineHeight: 1.3 }}>
-            Fresque · Weimarer Dreieck
+            Fresko · Weimarer Dreieck
           </div>
           <div style={{ fontSize: 9, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#aaa', marginTop: 1 }}>
             Generation Europa 2025
