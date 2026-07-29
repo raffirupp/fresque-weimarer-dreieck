@@ -1,21 +1,21 @@
 {
   "nav": {
     "home": "Accueil",
-    "downloads": "Matériaux",
+    "downloads": "Set de cartes",
     "about": "À propos"
   },
   "hero": {
     "tagline": "Generation Europa 2025",
     "title": "La Fresque du Triangle de Weimar",
     "subtitle": "Un atelier interactif sur la coopération européenne",
-    "intro": "La Fresque du Triangle de Weimar est un outil pédagogique pour les animateurs de jeunesse, qui transmet de manière ludique l'histoire et l'avenir de la coopération entre l'Allemagne, la France et la Pologne. Idéal pour les groupes de jeunes, les classes scolaires et les ateliers citoyens.",
-    "ctaDownload": "Télécharger les matériaux",
-    "whatIsTitle": "Qu'est-ce que la Fresque ?",
-    "whatIsText": "Un jeu de cartes collaboratif avec des discussions et une réflexion de groupe. En 90 minutes, les participants découvrent ensemble l'histoire et les valeurs du Triangle de Weimar.",
-    "forWhomTitle": "Pour qui ?",
-    "forWhomText": "Pour les animateurs de jeunesse, enseignants et coordinateurs d'associations qui organisent des ateliers pour les jeunes de 14 à 25 ans. Aucune connaissance préalable requise.",
-    "howTitle": "Comment ça se passe ?",
-    "howText": "Durée : 90–120 minutes. Participants : 8–24 personnes. Tous les matériaux – jeu de cartes et guide de facilitation – sont disponibles gratuitement en téléchargement. Directement et sans barrières.",
+    "intro": "La fresque du Triangle de Weimar est un outil ludique, inspirée de la Fresque du Climat, qui vise une meilleure compréhension des relations entre la France, l’Allemagne et la Pologne depuis le 20ème siècle.",
+    "ctaDownload": "Télécharger le set de cartes",
+    "whatIsTitle": "Qu'est-ce que la Fresque du Triangle de Weimar?",
+    "whatIsText": "À travers un atelier interactif et participatif de deux heures, les participant·es retracent les grandes étapes de l’histoire de ces trois pays, en explorant les événements clés qui ont façonné leur coopération.",
+    "forWhomTitle": "Pour qui?",
+    "forWhomText": "Ce projet a pour objectif de faire découvrir le Triangle de Weimar à toute personne intéressée par la coopération franco-germano-polonaise. Il s’adresse particulièrement aux jeunes de 15 ans et plus, dans un contexte éducatif ou dans le cadre de mobilités trinationales et d’échanges européens.",
+    "howTitle": "Comment ça se passe?",
+    "howText": "Durée : 120 minutes. Participants : 8–14 personnes. Le set de cartes et guide de facilitation – sont disponibles gratuitement en téléchargement.",
     "statLaender": "Pays",
     "statWorkshop": "Min. Atelier",
     "statTeiln": "Max. part.",
@@ -24,31 +24,31 @@
   },
   "scrolly": {
     "s1": {
-      "label": "Qu'est-ce que la Fresque ?",
+      "label": "Qu'est-ce que la Fresque du Triangle de Weimar?",
       "title": "Un atelier qui donne vie à l'Europe",
-      "text": "La Fresque est un jeu de cartes collaboratif pour groupes de jeunes. En 90 minutes, les participants découvrent ensemble ce qui unit l'Allemagne, la France et la Pologne – et comment ils veulent façonner l'Europe de demain."
+      "text": "La fresque du Triangle de Weimar est un outil ludique, inspirée de la Fresque du Climat, qui vise une meilleure compréhension des relations entre la France, l’Allemagne et la Pologne depuis le 20ème siècle."
     },
     "s2": {
-      "label": "Pour qui ?",
-      "title": "Pour les jeunes de 14 à 25 ans",
-      "text": "Les animateurs de jeunesse, enseignants et coordinateurs d'associations peuvent animer la Fresque sans connaissances préalables. Tout ce dont vous avez besoin, c'est le matériel gratuit et l'envie de belles conversations."
+      "label": "Pour qui?",
+      "title": "Pour tous ceux qui, à partir de 15 ans, s'intéressent à la coopération entre l'Allemagne, la France et la Pologne",
+      "text": "Ce projet a pour objectif de faire découvrir le Triangle de Weimar à toute personne intéressée par la coopération franco-germano-polonaise. Il s’adresse particulièrement aux jeunes de 15 ans et plus, dans un contexte éducatif ou dans le cadre de mobilités trinationales et d’échanges européens."
     },
     "s3": {
-      "label": "Comment ?",
-      "title": "En trois étapes simples",
-      "text": "Téléchargez les matériaux, imprimez les cartes et lancez votre atelier. Un guide de facilitation détaillé vous accompagne tout au long du déroulement – étape par étape."
+      "label": "Comment?",
+      "title": "L'atelier se déroule en trois phases",
+      "text": "Dans un premier temps, la fresque est réalisée collectivement afin de mettre en évidence les liens entre les événements historiques et les situations sociales. Au cours de la phase de réflexion, les participants peuvent exprimer leurs sentiments, s'interroger sur les liens entre le passé et le présent et explorer différentes interprétations. À la fin, un temps est consacré aux échanges et aux retours d'expérience."
     }
   },
   "downloads": {
-    "title": "Matériaux",
-    "subtitle": "Tous les matériaux sont gratuits et imprimables. Remplissez le formulaire pour y accéder immédiatement.",
+    "title": "Set de cartes",
+    "subtitle": "Tous les éléments sont gratuits et imprimables. Remplissez le formulaire pour y accéder immédiatement.",
     "downloadButton": "Télécharger",
     "openButton": "Ouvrir",
     "comingSoon": "Bientôt disponible",
     "items": {
       "karten": {
-        "title": "Jeu de cartes",
-        "desc": "Jeu de cartes complet et imprimable. Contient des cartes thématiques, des cartes de réflexion et des cartes d'événements historiques pour les trois pays."
+        "title": "Set de cartes",
+        "desc": "Set de cartes complet et imprimable. Contient des cartes sur quatre thematiques principales: 1. Contexte historique, 2. Formats et méchanismes de coopération du Trianglede Weimar, 3. Tensions et défis, 4. Opportunités et perspectives d'avenir."
       },
       "moderationsleitfaden": {
         "title": "Guide de facilitation",
@@ -57,39 +57,38 @@
     }
   },
   "contact": {
-    "title": "Obtenir les matériaux",
-    "subtitle": "Remplissez le court formulaire – vous accéderez immédiatement à tous les matériaux dans la langue choisie.",
-    "langLabel": "Dans quelle langue souhaitez-vous animer la Fresque ?",
-    "field_einsatzzweck": "Comment prévoyez-vous d'utiliser la Fresque ?",
+    "title": "Obtenir le set de cartes",
+    "subtitle": "Remplissez le court formulaire – vous accéderez immédiatement à tous les ... dans la langue choisie.",
+    "langLabel": "Dans quelle langue souhaitez-vous animer la Fresque?",
+    "field_einsatzzweck": "Comment prévoyez-vous d'utiliser la Fresque?",
     "placeholder_einsatzzweck": "ex. atelier scolaire, association de jeunesse, éducation civique, atelier citoyen ...",
-    "field_land": "Dans quel pays aura lieu l'atelier ?",
+    "field_land": "Dans quel pays aura lieu l'atelier?",
     "placeholder_land": "ex. France, Allemagne, Pologne ...",
     "field_zielgruppe": "Public cible & âge",
-    "placeholder_zielgruppe": "ex. lycéens, 14–18 ans",
+    "placeholder_zielgruppe": "ex. lycéens, 15–18 ans",
     "field_partner": "Partenaires de coopération (optionnel)",
     "placeholder_partner": "ex. OFAJ, jumelage, école ...",
     "field_email": "Votre adresse de contact",
     "placeholder_email": "votre@email.fr",
-    "optional_note": "Si vous souhaitez partager quelques informations, nous en serions ravis – tout est facultatif et réservé à un usage interne. Vous pouvez aussi télécharger les matériaux directement.",
-    "button": "Envoyer & accéder aux matériaux",
-    "skip": "Accéder directement aux matériaux →",
+    "optional_note": "Nous serions ravis que vous nous fassiez part de vos commentaires sur le support pédagogique et votre atelier (weimar.freska@gmail.com).",
+    "button": "Envoyer & accéder le set de cartes",
     "sending": "Envoi en cours ...",
     "success_title": "Merci beaucoup !",
-    "success_text": "Voici vos matériaux dans la langue choisie. Bon atelier !",
+    "success_text": "Voici votre set de cartes dans la langue choisie. Bon atelier!",
     "error": "Une erreur s'est produite. Veuillez réessayer.",
     "privacy": "Toutes les informations sont facultatives et réservées à un usage interne.",
     "privacyLinkText": "Politique de confidentialité de l'OFAJ"
   },
   "team": {
     "title": "À propos",
-    "subtitle": "La Fresque du Triangle de Weimar a été développée par l'équipe de Generation Europa 2025 – une organisation dédiée à l'éducation européenne.",
+    "subtitle": "La Fresque du Triangle de Weimar a été développée par l'équipe de Generation Europa 2025 – un projet de l'Office franco-allemand pour la Jeunesse (OFAJ).",
     "person1": {
       "role": "Direction de projet",
-      "bio": "Placeholder – nom et courte biographie seront ajoutés ici."
+      "bio": "Leslie Albracht ...."
     },
     "person2": {
-      "role": "Conception des matériaux",
-      "bio": "Placeholder – nom et courte biographie seront ajoutés ici."
+      "role": "Direction de projet",
+      "bio": "Pauline Laufer ..."
     },
     "person3": {
       "role": "Coordination des partenariats",
@@ -101,7 +100,7 @@
     "imprintTitle": "Mentions légales",
     "imprintText": "Generation Europa est un projet de l'Office franco-allemand pour la Jeunesse (OFAJ).",
     "contactTitle": "Contact",
-    "contactEmail": "contact@example.org",
+    "contactEmail": "weimar.freska@gmail.com",
     "rights": "Tous droits réservés."
   }
 }
