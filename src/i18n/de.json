@@ -8,14 +8,14 @@
     "tagline": "Generation Europa 2025",
     "title": "Fresko zum Weimarer Dreieck",
     "subtitle": "Ein interaktiver Workshop über europäische Zusammenarbeit",
-    "intro": "Das Fresko zum Weimarer Dreieck ist ein Bildungswerkzeug für Jugendleiter:innen, das die Geschichte und Zukunft der Zusammenarbeit zwischen Deutschland, Frankreich und Polen auf spielerische Weise vermittelt. Geeignet für Jugendgruppen, Schulklassen und Bürgerworkshops.",
+    "intro": "Das Fresko zum Weimarer Dreieck ist ein Bildungswerkzeug für Gruppenleitungen, das zu einem besseren Verständnis der Beziehungen zwischen Frankreich, Polen und Deutschland seit dem 20. Jahrhundert beitragen soll. Geeignet für Jugendgruppen, Schulklassen und Bürgerworkshops.",
     "ctaDownload": "Materialien herunterladen",
-    "whatIsTitle": "Was ist das Fresko?",
-    "whatIsText": "Ein kollaboratives Kartenspiel mit Diskussionsrunden und Gruppenreflexion. In 90 Minuten entdecken Teilnehmende gemeinsam Geschichte und Werte des Weimarer Dreiecks.",
+    "whatIsTitle": "Was ist das Fresko zum Weimarer Dreieck?",
+    "whatIsText": "In einem zweistündigen interaktiven und partizipativen Workshop verfolgen die Teilnehmenden die wichtigsten historischen Ereignisse der drei Länder sowie die Schlüsselmomente, die ihre Zusammenarbeit geprägt haben.",
     "forWhomTitle": "Für wen?",
-    "forWhomText": "Für Jugendleiter:innen, Lehrkräfte und Vereinskoordinator:innen, die Workshops für Jugendliche zwischen 14 und 25 Jahren leiten. Kein Vorwissen nötig.",
+    "forWhomText": "Für Alle, ab 15 Jahren, die sich für die Zusammenarbeit zwischen Deutschland, Frankreich und Polen interessieren.",
     "howTitle": "Wie läuft es ab?",
-    "howText": "Dauer: 90–120 Minuten. Teilnehmende: 8–24 Personen. Alle Materialien – Karten-Set und Moderationsleitfaden – stehen kostenlos zum Download bereit. Direkt und ohne Hürden.",
+    "howText": "Dauer: 120 Minuten. Teilnehmende: 8–14 Personen. Alle Materialien – Karten-Set und Moderationsleitfaden – können kostenlos heruntergeladen werden.",
     "statLaender": "Länder",
     "statWorkshop": "Min. Workshop",
     "statTeiln": "Max. Teiln.",
@@ -26,17 +26,17 @@
     "s1": {
       "label": "Was ist das Fresko?",
       "title": "Ein Workshop, der Europa zum Leben erweckt",
-      "text": "Das Fresko ist ein kollaboratives Kartenspiel für Jugendgruppen. In 90 Minuten entdecken Teilnehmende gemeinsam, was Deutschland, Frankreich und Polen verbindet – und wie sie Europa der Zukunft gestalten wollen."
+      "text": "Das Fresko zum Weimarer Dreieck ist ein spielerisches Tool, inspiriert von der Klima-Fresque, das zu einem besseren Verständnis der Beziehungen zwischen Frankreich, Polen und Deutschland seit dem 20. Jahrhundert beitragen soll. n einem zweistündigen interaktiven und partizipativen Workshop verfolgen die Teilnehmenden die wichtigsten historischen Ereignisse der drei Länder sowie die Schlüsselmomente, die ihre Zusammenarbeit geprägt haben. Diese spielerische Methode zielt darauf ab, das gegenseitige Verständnis zwischen den drei Ländern  zu stärken und den interkulturellen Dialog zu fördern."
     },
     "s2": {
       "label": "Für wen?",
-      "title": "Für Jugendliche von 14 bis 25 Jahren",
-      "text": "Jugendleiter:innen, Lehrkräfte und Vereinskoordinator:innen können das Fresko ohne Vorkenntnisse leiten. Alles, was du brauchst, ist das kostenlose Material und Lust auf gute Gespräche."
+      "title": "Für Alle, ab 15 Jahren, die sich für die Zusammenarbeit zwischen Deutschland, Frankreich und Polen interessieren",
+      "text": "Dieses Projekt möchte das Weimarer Dreieck allen näherbringen, die sich für die deutsch-französisch-polnische Zusammenarbeit interessieren. Es richtet sich insbesondere an Jugendliche ab 15 Jahren, sowohl im schulischen und außerschulischen Bildungskontext als auch im Rahmen trinationaler Mobilitätsprojekte und europäischer Austauschprogramme."
     },
     "s3": {
       "label": "Wie?",
-      "title": "In drei einfachen Schritten",
-      "text": "Lade die Materialien herunter, drucke die Karten aus, und starte deinen Workshop. Ein ausführlicher Moderationsleitfaden begleitet dich durch den gesamten Ablauf – Schritt für Schritt."
+      "title": "Der Workshop besteht aus drei Phasen",
+      "text": "Zuerst wird gemeinsam das Fresko gebildet, um Zusammenhänge zwischen historischen Ereignissen und gesellschaftlichen Situationen sichtbar zu machen. In der Reflexionsphase können Teilnehmende Gefühle ausdrücken, Verbindungen zwischen Vergangenheit und Gegenwart hinterfragen und Interpretationen erforschen. Zum Abschluss bleibt Zeit für den Austausch und Feedback."
     }
   },
   "downloads": {
@@ -48,11 +48,11 @@
     "items": {
       "karten": {
         "title": "Karten-Set",
-        "desc": "Vollständiges, druckbares Karten-Set. Enthält Themenkarten, Reflexionskarten und historische Ereigniskarten für alle drei Länder."
+        "desc": "Vollständiges, druckbares Karten-Set. Enthält Fresko-Karten den vier thematischen Phasen: 1. Historischer Kontext, 2. Formen und Instrumente der Kooperation im Weimarer Dreieck, 3. Spannungen und Herausforderungen, 4. Chancen und Zukunftsperspektiven."
       },
       "moderationsleitfaden": {
         "title": "Moderationsleitfaden",
-        "desc": "Schritt-für-Schritt-Leitfaden für Moderator:innen mit Zeitplanung, Fragenvorschlägen und methodischen Hinweisen."
+        "desc": "Schritt-für-Schritt-Leitfaden für die Moderation mit Zeitplanung, Fragenvorschlägen und methodischen Hinweisen."
       }
     }
   },
@@ -60,19 +60,18 @@
     "title": "Materialien erhalten",
     "subtitle": "Füllt das kurze Formular aus – ihr erhaltet sofort Zugang zu allen Materialien in der gewählten Sprache.",
     "langLabel": "In welcher Sprache möchtet ihr das Fresko durchführen?",
-    "field_einsatzzweck": "Wie plant ihr das Fresko einzusetzen?",
-    "placeholder_einsatzzweck": "z.B. Schulworkshop, Jugendverband, politische Bildung, Bürgerworkshop ...",
+    "field_einsatzzweck": "Wie plant ihr die Fresque einzusetzen?",
+    "placeholder_einsatzzweck": "z.B. Schulworkshop, Jugendverband, politische Bildung, Workshop mit Bürger*innen ...",
     "field_land": "In welchem Land findet der Workshop statt?",
     "placeholder_land": "z.B. Deutschland, Frankreich, Polen ...",
     "field_zielgruppe": "Zielgruppe & Alter",
-    "placeholder_zielgruppe": "z.B. Schüler:innen, 14–18 Jahre",
+    "placeholder_zielgruppe": "z.B. Schüler:innen, 15–18 Jahre",
     "field_partner": "Kooperationspartner (optional)",
     "placeholder_partner": "z.B. DFJW, Städtepartnerschaft, Schule ...",
     "field_email": "Eure Kontaktadresse",
     "placeholder_email": "eure@email.de",
-    "optional_note": "Wenn ihr uns ein paar Informationen teilt, freuen wir uns sehr – alles freiwillig und nur für interne Zwecke. Ihr könnt die Materialien auch direkt herunterladen.",
+    "optional_note": "Wir freuen uns sehr, wenn ihr uns Feedback zum Material und eurem Workshop schickt (weimar.freska@gmail.com)."
     "button": "Absenden & Materialien erhalten",
-    "skip": "Direkt zu den Materialien →",
     "sending": "Wird gesendet ...",
     "success_title": "Vielen Dank!",
     "success_text": "Hier sind eure Materialien in der gewählten Sprache. Viel Erfolg beim Workshop!",
@@ -82,14 +81,14 @@
   },
   "team": {
     "title": "Über uns",
-    "subtitle": "Das Fresko zum Weimarer Dreieck wurde vom Team Generation Europa 2025 entwickelt – einer Organisation für europäische Bildung.",
+    "subtitle": "Das Fresko zum Weimarer Dreieck wurde vom Team Generation Europa 2025 entwickelt – ein Projekt des Deutsch-Französischen Jugendwerks (DFJW).",
     "person1": {
       "role": "Projektleitung",
-      "bio": "Platzhalter – Name und Kurzbiografie werden hier ergänzt."
+      "bio": "Leslie Albracht ist ... ."
     },
     "person2": {
-      "role": "Materialgestaltung",
-      "bio": "Platzhalter – Name und Kurzbiografie werden hier ergänzt."
+      "role": "Projektleitung",
+      "bio": "Pauline Laufer ... ."
     },
     "person3": {
       "role": "Partnerkoordination",
@@ -101,7 +100,7 @@
     "imprintTitle": "Impressum",
     "imprintText": "Generation Europa ist ein Projekt des Deutsch-Französischen Jugendwerks (DFJW).",
     "contactTitle": "Kontakt",
-    "contactEmail": "kontakt@example.org",
+    "contactEmail": "weimar.freska@gmail.com",
     "rights": "Alle Rechte vorbehalten."
   }
 }
