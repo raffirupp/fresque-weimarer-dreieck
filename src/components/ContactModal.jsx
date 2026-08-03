@@ -22,8 +22,6 @@ const S = {
     titleFont: 'Montserrat, sans-serif',
     subtitleCls: 'text-sm text-[#5A6070] mt-1',
     closeCls: 'p-2 rounded-lg transition-colors text-[#5A6070] hover:text-[#1E3A5F] hover:bg-[#F5F3EE]',
-    noteBox: 'bg-[#F5F3EE] rounded-xl px-4 py-3 mb-6',
-    noteText: 'text-sm text-[#5A6070]',
     labelCls: 'block text-[11px] font-semibold text-[#1E3A5F] mb-1.5 uppercase tracking-wide',
     inputCls: 'w-full px-4 py-2.5 text-sm border border-[#E2DDD8] rounded-lg outline-none transition-colors bg-white text-[#1A1A2E] placeholder:text-[#5A6070]/40 focus:border-[#1E3A5F]',
     inputStyle: undefined,
@@ -57,28 +55,24 @@ const S = {
     box: 'rounded-2xl shadow-2xl',
     boxStyle: { background: '#0A1928', color: '#fff' },
     stripe: ['#B8860B', 'rgba(255,255,255,0.4)', '#7A2F3E'],
-    titleCls: 'text-xl font-black text-white',
+    titleCls: 'text-2xl font-black text-white',
     titleFont: 'Montserrat, sans-serif',
-    subtitleCls: 'text-sm mt-1',
+    subtitleCls: 'text-base mt-2',
     subtitleStyle: { color: 'rgba(255,255,255,0.5)' },
     closeCls: 'p-2 rounded-lg transition-colors',
     closeStyle: { color: 'rgba(255,255,255,0.4)' },
-    noteBox: 'rounded-xl px-4 py-3 mb-6',
-    noteBoxStyle: { background: 'rgba(255,255,255,0.07)' },
-    noteText: 'text-sm',
-    noteTextStyle: { color: 'rgba(255,255,255,0.5)' },
-    labelCls: 'block text-[11px] font-bold mb-1.5 uppercase tracking-wide',
+    labelCls: 'block text-xs font-bold mb-2 uppercase tracking-wide',
     labelStyle: { color: '#B8860B' },
-    inputCls: 'w-full px-4 py-2.5 text-sm border rounded-lg outline-none transition-colors',
+    inputCls: 'w-full px-4 py-3 text-base border rounded-xl outline-none transition-colors',
     inputStyle: { borderColor: 'rgba(255,255,255,0.15)', background: 'rgba(255,255,255,0.08)', color: '#fff' },
-    langActive: 'text-sm font-black rounded-lg px-4 py-2',
+    langActive: 'text-sm font-black rounded-xl px-5 py-2.5',
     langActiveStyle: { background: '#B8860B', color: '#0A1928' },
-    langInactive: 'text-sm font-bold rounded-lg px-4 py-2 transition-colors',
+    langInactive: 'text-sm font-bold rounded-xl px-5 py-2.5 transition-colors',
     langInactiveStyle: { border: '1px solid rgba(255,255,255,0.2)', color: 'rgba(255,255,255,0.6)' },
-    submitCls: 'px-6 py-3 text-sm font-black rounded-lg disabled:opacity-60 transition-colors',
-    submitStyle: { background: '#B8860B', color: '#0A1928' },
-    skipCls: 'text-sm underline underline-offset-2',
-    skipStyle: { color: 'rgba(255,255,255,0.4)' },
+    submitCls: 'px-8 py-3.5 text-base font-black rounded-xl disabled:opacity-60 transition-all hover:scale-105 shadow-lg',
+    submitStyle: { background: '#B8860B', color: '#0A1928', boxShadow: '0 8px 24px rgba(184,134,11,0.35)' },
+    skipCls: 'text-sm font-semibold underline underline-offset-2',
+    skipStyle: { color: 'rgba(255,255,255,0.45)' },
     successBox: 'rounded-xl px-5 py-4 mb-8',
     successBoxStyle: { background: 'rgba(5,150,105,0.12)', border: '1px solid rgba(5,150,105,0.3)' },
     successTitle: 'text-sm font-black text-emerald-400 mb-0.5',
@@ -97,8 +91,8 @@ const S = {
     comingSoon: 'inline-flex items-center text-xs px-3 py-1.5 rounded-lg self-start',
     comingSoonStyle: { border: '1px solid rgba(255,255,255,0.15)', color: 'rgba(255,255,255,0.4)' },
     dlGrid: 'grid sm:grid-cols-2 gap-4',
-    privacyCls: 'text-xs',
-    privacyStyle: { color: 'rgba(255,255,255,0.25)' },
+    privacyCls: 'text-sm',
+    privacyStyle: { color: 'rgba(255,255,255,0.4)' },
     errorCls: 'text-sm text-red-400 mt-2',
     font: 'Montserrat, sans-serif',
   },
@@ -113,9 +107,6 @@ const S = {
     titleFont: 'inherit',
     subtitleCls: 'text-sm text-gray-400 mt-1',
     closeCls: 'p-2 transition-colors text-gray-300 hover:text-black',
-    noteBox: 'border-l-4 pl-4 py-1 mb-6',
-    noteBoxStyle: { borderColor: '#C41E3A' },
-    noteText: 'text-sm text-gray-400',
     labelCls: 'block text-[10px] font-bold mb-2 uppercase tracking-[0.15em]',
     labelStyle: { color: '#C41E3A' },
     inputCls: 'w-full px-0 py-2.5 text-sm border-b outline-none transition-colors bg-white text-black placeholder:text-gray-300',
@@ -224,11 +215,11 @@ function FormView({ s, variant, onSuccess }) {
   }
 
   return (
-    <div className="p-6 sm:p-8">
+    <div className="p-7 sm:p-9">
       {/* Language selector */}
-      <div className="mb-6">
+      <div className="mb-7">
         <p className={s.labelCls} style={s.labelStyle}>{t('contact.langLabel')}</p>
-        <div className="flex gap-2 flex-wrap mt-2">
+        <div className="flex gap-2.5 flex-wrap mt-2.5">
           {FORM_LANGS.map(l => (
             <button
               key={l.code}
@@ -243,12 +234,7 @@ function FormView({ s, variant, onSuccess }) {
         </div>
       </div>
 
-      {/* Optional note */}
-      <div className={s.noteBox} style={s.noteBoxStyle}>
-        <p className={s.noteText} style={s.noteTextStyle}>{t('contact.optional_note')}</p>
-      </div>
-
-      <form onSubmit={handleSubmit} className="space-y-4">
+      <form onSubmit={handleSubmit} className="space-y-5">
         {/* Honeypot – hidden from humans, filled only by bots */}
         <input
           type="text"
@@ -266,13 +252,13 @@ function FormView({ s, variant, onSuccess }) {
             value={fields.einsatzzweck}
             onChange={set('einsatzzweck')}
             placeholder={t('contact.placeholder_einsatzzweck')}
-            rows={2}
+            rows={3}
             className={`${s.inputCls} resize-none`}
             style={s.inputStyle}
           />
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-2 gap-5">
           <div>
             <label className={s.labelCls} style={s.labelStyle}>{t('contact.field_land')}</label>
             <input type="text" value={fields.land} onChange={set('land')}
@@ -297,7 +283,7 @@ function FormView({ s, variant, onSuccess }) {
             placeholder={t('contact.placeholder_email')} className={s.inputCls} style={s.inputStyle} />
         </div>
 
-        <div className="pt-2 flex flex-col sm:flex-row sm:items-center gap-3">
+        <div className="pt-3 flex flex-col sm:flex-row sm:items-center gap-4">
           <button type="submit" disabled={status === 'sending'}
             className={s.submitCls} style={s.submitStyle}>
             {status === 'sending' ? t('contact.sending') : t('contact.button')}
@@ -311,7 +297,7 @@ function FormView({ s, variant, onSuccess }) {
         {status === 'error' && <p className={s.errorCls}>{t('contact.error')}</p>}
       </form>
 
-      <p className={`${s.privacyCls} mt-5`} style={s.privacyStyle}>
+      <p className={`${s.privacyCls} mt-6`} style={s.privacyStyle}>
         {t('contact.privacy')}{' '}
         <a
           href="https://www.dfjw.org/datenschutzerklaerung"
@@ -411,7 +397,7 @@ export default function ContactModal({ variant = 'v1' }) {
       <div className={`fixed inset-0 ${s.backdrop}`} onClick={closeModal} aria-hidden="true" />
 
       {/* Modal box */}
-      <div className={`relative w-full max-w-2xl max-h-[90vh] overflow-y-auto ${s.box}`} style={s.boxStyle}>
+      <div className={`relative w-full max-w-2xl lg:max-w-3xl max-h-[90vh] overflow-y-auto ${s.box}`} style={s.boxStyle}>
 
         {/* Top accent: tricolor stripe (V1/V2) or thin red line (V3) */}
         {s.stripe ? (
@@ -423,7 +409,7 @@ export default function ContactModal({ variant = 'v1' }) {
         )}
 
         {/* Header */}
-        <div className="flex items-start justify-between px-6 sm:px-8 pt-5 pb-0">
+        <div className="flex items-start justify-between px-7 sm:px-9 pt-6 pb-0">
           <div>
             <h2 className={s.titleCls} style={{ fontFamily: s.font }}>
               {unlocked ? t('downloads.title') : t('contact.title')}
