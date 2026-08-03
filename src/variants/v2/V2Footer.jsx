@@ -7,7 +7,7 @@ export default function V2Footer() {
   return (
     <footer style={{ background: 'linear-gradient(135deg, #0A1928, #1E3A5F)' }} className="text-white">
       <div className="max-w-7xl mx-auto px-5 sm:px-10 py-14">
-        <div className="grid sm:grid-cols-2 gap-10 mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-12">
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="flex gap-0.5 h-5" aria-hidden="true">
@@ -24,7 +24,31 @@ export default function V2Footer() {
 
           <div>
             <h3 className="text-xs font-black text-[#B8860B] uppercase tracking-widest mb-4">{t('footer.imprintTitle')}</h3>
-            <p className="text-sm text-white/50 leading-relaxed">{t('footer.imprintText')}</p>
+            <p className="text-sm text-white/50 leading-relaxed mb-2">{t('footer.imprintText')}</p>
+            <details className="text-sm">
+              <summary className="text-white/40 hover:text-white/70 cursor-pointer transition-colors">
+                {t('footer.imprintToggle')}
+              </summary>
+              <p className="text-white/50 leading-relaxed whitespace-pre-line mt-3">{t('footer.imprintDetails')}</p>
+            </details>
+          </div>
+
+          <div>
+            <h3 className="text-xs font-black text-[#B8860B] uppercase tracking-widest mb-4">{t('footer.privacyTitle')}</h3>
+            <a
+              href="https://www.dfjw.org/datenschutzerklaerung"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-white/50 hover:text-white/80 underline underline-offset-2 leading-relaxed"
+            >
+              {t('footer.privacyDfjwLink')}
+            </a>
+            <details className="text-sm mt-2">
+              <summary className="text-white/40 hover:text-white/70 cursor-pointer transition-colors">
+                {t('footer.privacyToggle')}
+              </summary>
+              <p className="text-white/50 leading-relaxed whitespace-pre-line mt-3">{t('footer.privacyDetails')}</p>
+            </details>
           </div>
         </div>
 

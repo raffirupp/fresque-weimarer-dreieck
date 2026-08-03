@@ -96,6 +96,12 @@
     "orgName": "Generation Europa 2025",
     "imprintTitle": "Impressum",
     "imprintText": "Generation Europa jest projektem Niemiecko-Francuskiego Urzędu ds. Młodzieży (DFJW).",
+    "imprintToggle": "Pokaż pełne dane rejestrowe (Impressum)",
+    "imprintDetails": "Odpowiedzialny w rozumieniu § 5 niemieckiej ustawy o usługach cyfrowych (DDG):\n\nNiemiecko-Francuska Współpraca Młodzieży (DFJW/OFAJ)\nMolkenmarkt 1, 10179 Berlin, Niemcy\nTelefon: +49 (0)30 288 75 70-0\n\nReprezentowane przez: Tobiasa Bütowa i Anne Tallineau (Sekretarz Generalny/Sekretarz Generalna)\n\nTa strona projektu została opracowana, zaprojektowana i wdrożona technicznie przez uczestników programu Generation Europa 2025 (hosting: Vercel Inc.). Nie jest to oficjalna podstrona dfjw.org.\n\nProblem techniczny lub błędna treść na tej stronie? Napiszcie do nas: weimar.freska@gmail.com\n\nZastrzeżenie: nie ponosimy odpowiedzialności za treści zewnętrznych stron, do których prowadzą linki; miarodajna jest zawsze treść strony powiązanej w momencie utworzenia linku.",
+    "privacyTitle": "Ochrona danych",
+    "privacyToggle": "Pokaż informacje o ochronie danych dla tej strony",
+    "privacyDetails": "Niniejsze informacje uzupełniają ogólną politykę prywatności DFJW o dane dotyczące usług wykorzystywanych na tej stronie projektu.\n\nFormularz kontaktowy/pobierania: wypełniając formularz, przetwarzamy wasz adres e-mail, wybrany język, cel wykorzystania, kraj, grupę docelową oraz ewentualnego partnera współpracy, aby przesłać wam odpowiednie materiały (art. 6 ust. 1 lit. b/f RODO). Dane są przechowywane za pośrednictwem dostawcy Supabase Inc. na serwerach zlokalizowanych w UE; dostęp mają wyłącznie osoby odpowiedzialne za projekt.\n\nAnaliza ruchu: ta strona korzysta z Vercel Analytics do anonimowej analizy ruchu bez plików cookie, bez tworzenia profili osobowych.\n\nWasze prawa: macie prawo do informacji, sprostowania, usunięcia i ograniczenia przetwarzania waszych danych. W tej sprawie napiszcie do: weimar.freska@gmail.com",
+    "privacyDfjwLink": "Ogólna polityka prywatności DFJW",
     "contactTitle": "Kontakt",
     "contactEmail": "kontakt@example.org",
     "rights": "Wszelkie prawa zastrzeżone."

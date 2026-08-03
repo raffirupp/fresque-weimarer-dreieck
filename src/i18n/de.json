@@ -96,6 +96,12 @@
     "orgName": "Generation Europa 2025",
     "imprintTitle": "Impressum",
     "imprintText": "Generation Europa ist ein Projekt des Deutsch-Französischen Jugendwerks (DFJW).",
+    "imprintToggle": "Vollständiges Impressum anzeigen",
+    "imprintDetails": "Verantwortlich im Sinne von § 5 DDG:\n\nDeutsch-Französisches Jugendwerk (DFJW)\nMolkenmarkt 1, 10179 Berlin\nTelefon: +49 (0)30 288 75 70-0\n\nVertreten durch: Tobias Bütow und Anne Tallineau (Generalsekretär/-in)\n\nDiese Projektseite wurde im Rahmen des Programms Generation Europa 2025 von Teilnehmenden konzipiert, gestaltet und technisch umgesetzt (Hosting: Vercel Inc.). Sie ist keine offizielle Unterseite von dfjw.org.\n\nTechnisches Problem oder fehlerhafter Inhalt auf dieser Seite? Schreibt uns: weimar.freska@gmail.com\n\nHaftungshinweis: Für die Inhalte extern verlinkter Seiten übernehmen wir keine Verantwortung; maßgeblich ist der Inhalt der verlinkten Seite zum Zeitpunkt der Verlinkung.",
+    "privacyTitle": "Datenschutz",
+    "privacyToggle": "Datenschutzhinweise zu dieser Projektseite anzeigen",
+    "privacyDetails": "Diese Hinweise ergänzen die allgemeine Datenschutzerklärung des DFJW um Angaben zu den auf dieser Projektseite eingesetzten Diensten.\n\nKontakt-/Downloadformular: Beim Ausfüllen des Formulars verarbeiten wir eure E-Mail-Adresse, die gewählte Sprache, Einsatzzweck, Land, Zielgruppe und ggf. Kooperationspartner, um euch die passenden Materialien zuzusenden (Art. 6 Abs. 1 lit. b/f DSGVO). Die Daten werden über den Dienstleister Supabase Inc. auf Servern innerhalb der EU gespeichert; Zugriff haben ausschließlich die Projektverantwortlichen.\n\nReichweitenmessung: Diese Seite nutzt Vercel Analytics zur anonymisierten, cookie-losen Reichweitenmessung, ohne personenbezogene Profile zu erstellen.\n\nEure Rechte: Ihr habt das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung eurer Daten. Wendet euch dazu an: weimar.freska@gmail.com",
+    "privacyDfjwLink": "Allgemeine Datenschutzerklärung des DFJW",
     "contactTitle": "Kontakt",
     "contactEmail": "weimar.freska@gmail.com",
     "rights": "Alle Rechte vorbehalten."

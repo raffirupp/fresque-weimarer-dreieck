@@ -96,6 +96,12 @@
     "orgName": "Generation Europa 2025",
     "imprintTitle": "Mentions légales",
     "imprintText": "Generation Europa est un projet de l'Office franco-allemand pour la Jeunesse (OFAJ).",
+    "imprintToggle": "Afficher les mentions légales complètes",
+    "imprintDetails": "Responsable au sens de l'article 5 de la loi allemande sur les services numériques (DDG) :\n\nOffice franco-allemand pour la Jeunesse (OFAJ)\nMolkenmarkt 1, 10179 Berlin, Allemagne\nTéléphone : +49 (0)30 288 75 70-0\n\nReprésenté par : Tobias Bütow et Anne Tallineau (Secrétaires générale et général)\n\nCette page de projet a été conçue, réalisée et développée par les participant·e·s du programme Génération Europe 2025 (hébergement : Vercel Inc.). Elle ne constitue pas une sous-page officielle de dfjw.org.\n\nProblème technique ou contenu erroné sur cette page ? Écrivez-nous : weimar.freska@gmail.com\n\nAvertissement : nous déclinons toute responsabilité quant au contenu des sites externes liés ; seul le contenu du site lié au moment de la mise en lien fait foi.",
+    "privacyTitle": "Confidentialité",
+    "privacyToggle": "Afficher les informations de confidentialité de cette page",
+    "privacyDetails": "Ces informations complètent la déclaration de confidentialité générale de l'OFAJ concernant les services utilisés sur cette page de projet.\n\nFormulaire de contact / téléchargement : en remplissant le formulaire, nous traitons votre adresse e-mail, la langue choisie, l'usage prévu, le pays, le public cible et, le cas échéant, le partenaire de coopération, afin de vous envoyer les documents adaptés (art. 6, § 1, b/f RGPD). Les données sont stockées via le prestataire Supabase Inc. sur des serveurs situés dans l'UE ; seules les personnes responsables du projet y ont accès.\n\nMesure d'audience : ce site utilise Vercel Analytics pour une mesure d'audience anonymisée, sans cookies, sans création de profils personnels.\n\nVos droits : vous disposez d'un droit d'accès, de rectification, d'effacement et de limitation du traitement de vos données. Contactez-nous à : weimar.freska@gmail.com",
+    "privacyDfjwLink": "Déclaration de confidentialité générale de l'OFAJ",
     "contactTitle": "Contact",
     "contactEmail": "weimar.freska@gmail.com",
     "rights": "Tous droits réservés."
