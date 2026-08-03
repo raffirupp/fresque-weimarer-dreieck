@@ -70,8 +70,9 @@
     "placeholder_partner": "z.B. DFJW, Städtepartnerschaft, Schule ...",
     "field_email": "Eure Kontaktadresse",
     "placeholder_email": "eure@email.de",
-    "optional_note": "Wir freuen uns sehr, wenn ihr uns Feedback zum Material und eurem Workshop schickt (weimar.freska@gmail.com)."
+    "optional_note": "Wir freuen uns sehr, wenn ihr uns Feedback zum Material und eurem Workshop schickt (weimar.freska@gmail.com).",
     "button": "Absenden & Materialien erhalten",
+    "skip": "Direkt zu den Materialien →",
     "sending": "Wird gesendet ...",
     "success_title": "Vielen Dank!",
     "success_text": "Hier sind eure Materialien in der gewählten Sprache. Viel Erfolg beim Workshop!",
