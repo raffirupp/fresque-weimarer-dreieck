@@ -235,16 +235,22 @@ function FormView({ s, variant, onSuccess }) {
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-5">
-        {/* Honeypot – hidden from humans, filled only by bots */}
+        {/* Honeypot – hidden from humans, filled only by bots.
+            Name/autoComplete are deliberately unusual: common names like
+            "website" get targeted by browser/password-manager autofill
+            even when the field is invisible, which would falsely flag a
+            real visitor as a bot. */}
         <input
           type="text"
-          name="website"
+          name="hp_kommentar_x1"
           value={honeypot}
           onChange={e => setHoneypot(e.target.value)}
           tabIndex={-1}
           autoComplete="off"
+          data-lpignore="true"
+          data-1p-ignore="true"
           aria-hidden="true"
-          style={{ position: 'absolute', left: '-9999px', opacity: 0, height: 0 }}
+          style={{ position: 'absolute', left: '-9999px', opacity: 0, height: 0, width: 0 }}
         />
         <div>
           <label className={s.labelCls} style={s.labelStyle}>{t('contact.field_einsatzzweck')}</label>
