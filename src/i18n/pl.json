@@ -82,18 +82,14 @@
   },
   "team": {
     "title": "O nas",
-    "subtitle": "Fresk Trójkąta Weimarskiego został opracowany przez zespół Generation Europa 2025 – organizację zaangażowaną w edukację europejską.",
+    "subtitle": "Fresk Trójkąta Weimarskiego został opracowany przez zespół Generation Europa 2025 – projekt Niemiecko-Francuskiego Urzędu ds. Młodzieży (DFJW).",
     "person1": {
       "role": "Kierownik projektu",
-      "bio": "Placeholder – imię i nazwisko, rola oraz krótka biografia zostaną tutaj uzupełnione."
+      "bio": "Leslie Albracht jest Project Managerką ds. Socio-Economic Change & Innovation w WWF Switzerland i posiada tytuł magistra w dziedzinie zastosowanej sztucznej inteligencji (FH Südwestfalen)."
     },
     "person2": {
-      "role": "Projektant materiałów",
-      "bio": "Placeholder – imię i nazwisko, rola oraz krótka biografia zostaną tutaj uzupełnione."
-    },
-    "person3": {
-      "role": "Koordynator partnerstw",
-      "bio": "Placeholder – imię i nazwisko, rola oraz krótka biografia zostaną tutaj uzupełnione."
+      "role": "Kierownik projektu",
+      "bio": "Pauline Laufer jest koordynatorką IT w Gesundheits- und Veterinäramt Münster i posiada tytuł magistra inżynierii biomedycznej (FH Münster)."
     }
   },
   "footer": {
