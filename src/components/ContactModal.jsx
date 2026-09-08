@@ -240,6 +240,7 @@ function FormView({ s, variant, onSuccess }) {
             onChange={set('einsatzzweck')}
             placeholder={t('contact.placeholder_einsatzzweck')}
             rows={3}
+            required
             className={`${s.inputCls} resize-none`}
             style={s.inputStyle}
           />
@@ -249,35 +250,31 @@ function FormView({ s, variant, onSuccess }) {
           <div>
             <label className={s.labelCls} style={s.labelStyle}>{t('contact.field_land')}</label>
             <input type="text" value={fields.land} onChange={set('land')}
-              placeholder={t('contact.placeholder_land')} className={s.inputCls} style={s.inputStyle} />
+              placeholder={t('contact.placeholder_land')} required className={s.inputCls} style={s.inputStyle} />
           </div>
           <div>
             <label className={s.labelCls} style={s.labelStyle}>{t('contact.field_zielgruppe')}</label>
             <input type="text" value={fields.zielgruppe} onChange={set('zielgruppe')}
-              placeholder={t('contact.placeholder_zielgruppe')} className={s.inputCls} style={s.inputStyle} />
+              placeholder={t('contact.placeholder_zielgruppe')} required className={s.inputCls} style={s.inputStyle} />
           </div>
         </div>
 
         <div>
           <label className={s.labelCls} style={s.labelStyle}>{t('contact.field_partner')}</label>
           <input type="text" value={fields.partner} onChange={set('partner')}
-            placeholder={t('contact.placeholder_partner')} className={s.inputCls} style={s.inputStyle} />
+            placeholder={t('contact.placeholder_partner')} required className={s.inputCls} style={s.inputStyle} />
         </div>
 
         <div>
           <label className={s.labelCls} style={s.labelStyle}>{t('contact.field_email')}</label>
           <input type="email" value={fields.email} onChange={set('email')}
-            placeholder={t('contact.placeholder_email')} className={s.inputCls} style={s.inputStyle} />
+            placeholder={t('contact.placeholder_email')} required className={s.inputCls} style={s.inputStyle} />
         </div>
 
         <div className="pt-3 flex flex-col sm:flex-row sm:items-center gap-4">
           <button type="submit" disabled={status === 'sending'}
             className={s.submitCls} style={s.submitStyle}>
             {status === 'sending' ? t('contact.sending') : t('contact.button')}
-          </button>
-          <button type="button" onClick={() => onSuccess(formLang)}
-            className={s.skipCls} style={s.skipStyle}>
-            {t('contact.skip')}
           </button>
         </div>
 

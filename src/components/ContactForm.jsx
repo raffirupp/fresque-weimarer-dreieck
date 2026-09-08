@@ -365,7 +365,7 @@ export default function ContactForm({ variant = 'v1', sectionId = 'kontakt' }) {
                 {t('contact.field_partner')}
               </label>
               <input type="text" value={fields.partner} onChange={set('partner')}
-                placeholder={t('contact.placeholder_partner')}
+                placeholder={t('contact.placeholder_partner')} required
                 className={s.input}
                 style={variant === 'v3' ? { borderColor: '#D4C5A9', color: '#1C1917' } : undefined}
               />
