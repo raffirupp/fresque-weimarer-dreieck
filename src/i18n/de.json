@@ -1,4 +1,9 @@
 {
+  "brand": {
+    "name": "Fresko · Weimarer Dreieck",
+    "subtitle": "Generation Europa 2025"
+  },
+
   "nav": {
     "home": "Start",
     "downloads": "Materialien",

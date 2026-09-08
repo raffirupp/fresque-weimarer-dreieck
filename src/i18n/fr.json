@@ -1,11 +1,15 @@
 {
+  "brand": {
+    "name": "Fresque · Triangle de Weimar",
+    "subtitle": "Génération Europe 2025"
+  },
   "nav": {
     "home": "Accueil",
     "downloads": "Set de cartes",
     "about": "À propos"
   },
   "hero": {
-    "tagline": "Generation Europa 2025",
+    "tagline": "Génération Europe 2025",
     "title": "La Fresque du Triangle de Weimar",
     "subtitle": "Un atelier interactif sur la coopération européenne",
     "intro": "La fresque du Triangle de Weimar est un outil ludique, inspirée de la Fresque du Climat, qui vise une meilleure compréhension des relations entre la France, l’Allemagne et la Pologne depuis le 20ème siècle.",
@@ -30,13 +34,13 @@
     },
     "s2": {
       "label": "Pour qui?",
-      "title": "Pour tous ceux qui, à partir de 15 ans, s'intéressent à la coopération entre l'Allemagne, la France et la Pologne",
+      "title": "Pour tous ceux et celles, à partir de 15 ans, s'intéressent à la coopération entre l'Allemagne, la France et la Pologne",
       "text": "Ce projet a pour objectif de faire découvrir le Triangle de Weimar à toute personne intéressée par la coopération franco-germano-polonaise. Il s’adresse particulièrement aux jeunes de 15 ans et plus, dans un contexte éducatif ou dans le cadre de mobilités trinationales et d’échanges européens."
     },
     "s3": {
       "label": "Comment?",
       "title": "L'atelier se déroule en trois phases",
-      "text": "Dans un premier temps, la fresque est réalisée collectivement afin de mettre en évidence les liens entre les événements historiques et les situations sociales. Au cours de la phase de réflexion, les participants peuvent exprimer leurs sentiments, s'interroger sur les liens entre le passé et le présent et explorer différentes interprétations. À la fin, un temps est consacré aux échanges et aux retours d'expérience."
+      "text": "Dans un premier temps, la fresque est réalisée collectivement afin de mettre en évidence les liens entre les événements historiques et les situations sociales. Au cours de la phase de réflexion, les participant·es peuvent exprimer leurs sentiments, s'interroger sur les liens entre le passé et le présent et explorer différentes interprétations. À la fin, un temps est consacré aux échanges et aux retours d'expérience."
     }
   },
   "downloads": {
@@ -80,22 +84,22 @@
   },
   "team": {
     "title": "À propos",
-    "subtitle": "La Fresque du Triangle de Weimar a été développée par l'équipe de Generation Europa 2025 – un projet de l'Office franco-allemand pour la Jeunesse (OFAJ).",
+    "subtitle": "La Fresque du Triangle de Weimar a été développée des participant·es de Génération Europe 2025 – un projet de l'Office franco-allemand pour la Jeunesse (OFAJ).",
     "person1": {
-      "role": "Direction de projet",
-      "bio": "Leslie Albracht est Project Manager Socio-Economic Change & Innovation chez WWF Switzerland et titulaire d'un Master en droits humains et action humanitaire de Sciences Po, spécialisation migration et gestion de projet."
+      "role": "Gestion de projet",
+      "bio": "Leslie Albracht est cheffe de projets transformation socio-économique pour le WWF Suisse, et titulaire d’un Master en droits humains et action humanitaire de Sciences Po Paris."
     },
     "person2": {
-      "role": "Direction de projet",
+      "role": "Gestion de projet",
       "bio": "Pauline Laufer est coordinatrice informatique au Gesundheits- und Veterinäramt Münster et titulaire d'un Master en intelligence artificielle appliquée (FH Südwestfalen)."
     }
   },
   "footer": {
-    "orgName": "Generation Europa 2025",
+    "orgName": "Génération Europe 2025",
     "imprintTitle": "Mentions légales",
-    "imprintText": "Generation Europa est un projet de l'Office franco-allemand pour la Jeunesse (OFAJ).",
+    "imprintText": "Génération Europe est un projet de l'Office franco-allemand pour la Jeunesse (OFAJ).",
     "imprintToggle": "Afficher les mentions légales complètes",
-    "imprintDetails": "Responsable au sens de l'article 5 de la loi allemande sur les services numériques (DDG) :\n\nOffice franco-allemand pour la Jeunesse (OFAJ)\nMolkenmarkt 1, 10179 Berlin, Allemagne\nTéléphone : +49 (0)30 288 75 70-0\n\nReprésenté par : Tobias Bütow et Anne Tallineau (Secrétaires générale et général)\n\nCette page de projet a été conçue, réalisée et développée par les participant·e·s du programme Génération Europe 2025 (hébergement : Vercel Inc.). Elle ne constitue pas une sous-page officielle de dfjw.org.\n\nProblème technique ou contenu erroné sur cette page ? Écrivez-nous : weimar.freska@gmail.com\n\nAvertissement : nous déclinons toute responsabilité quant au contenu des sites externes liés ; seul le contenu du site lié au moment de la mise en lien fait foi.",
+    "imprintDetails": "Responsable au sens de l'article 5 de la loi allemande sur les services numériques (DDG) :\n\nOffice franco-allemand pour la Jeunesse (OFAJ)\nMolkenmarkt 1, 10179 Berlin, Allemagne\nTéléphone : +49 (0)30 288 75 70-0\n\nReprésenté par : Tobias Bütow et Anne Tallineau (Secrétaires générale et général)\n\nCette page de projet a été conçue, réalisée et développée par les participant·es du programme Génération Europe 2025 (hébergement : Vercel Inc.). Elle ne constitue pas une sous-page officielle de dfjw.org.\n\nProblème technique ou contenu erroné sur cette page ? Écrivez-nous : weimar.freska@gmail.com\n\nAvertissement : nous déclinons toute responsabilité quant au contenu des sites externes liés ; seul le contenu du site lié au moment de la mise en lien fait foi.",
     "privacyTitle": "Confidentialité",
     "privacyToggle": "Afficher les informations de confidentialité de cette page",
     "privacyDetails": "Ces informations complètent la déclaration de confidentialité générale de l'OFAJ concernant les services utilisés sur cette page de projet.\n\nFormulaire de contact / téléchargement : en remplissant le formulaire, nous traitons votre adresse e-mail, la langue choisie, l'usage prévu, le pays, le public cible et, le cas échéant, le partenaire de coopération, afin de vous envoyer les documents adaptés (art. 6, § 1, b/f RGPD). Les données sont stockées via le prestataire Supabase Inc. sur des serveurs situés dans l'UE ; seules les personnes responsables du projet y ont accès.\n\nMesure d'audience : ce site utilise Vercel Analytics pour une mesure d'audience anonymisée, sans cookies, sans création de profils personnels.\n\nVos droits : vous disposez d'un droit d'accès, de rectification, d'effacement et de limitation du traitement de vos données. Contactez-nous à : weimar.freska@gmail.com",
