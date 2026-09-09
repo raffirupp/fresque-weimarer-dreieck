@@ -8,21 +8,11 @@ export default function V2Footer() {
     <footer style={{ background: 'linear-gradient(135deg, #0A1928, #1E3A5F)' }} className="text-white">
       <div className="max-w-7xl mx-auto px-5 sm:px-10 py-14">
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-12">
-          <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="flex gap-0.5 h-5" aria-hidden="true">
-                <div className="w-1.5 rounded-full bg-[#B8860B]" />
-                <div className="w-1.5 rounded-full bg-white/40" />
-                <div className="w-1.5 rounded-full bg-[#7A2F3E]" />
-              </div>
-              <div>
-                <div className="font-black text-white text-sm" style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}>
-                  {t('brand.name')}
-                </div>
-                <div className="text-[10px] text-white/40 tracking-wide uppercase">{t('footer.orgName')}</div>
-              </div>
-            </div>
-          </div>
+          <img
+            src="/images/Logos.svg"
+            alt="Freska Weimar"
+            className="h-11 w-auto"
+          />
 
           <div>
             <h3 className="text-xs font-black text-[#B8860B] uppercase tracking-widest mb-4">{t('footer.imprintTitle')}</h3>
