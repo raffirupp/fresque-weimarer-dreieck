@@ -13,21 +13,13 @@ export default function V2Header() {
       <div className="max-w-7xl mx-auto px-5 sm:px-10">
         <div className="flex items-center justify-between h-16">
 
-          <a href="#v2-info" className="flex items-center gap-3 min-w-0">
-            <div className="flex gap-0.5 h-5" aria-hidden="true">
-              <div className="w-1.5 rounded-full bg-[#B8860B]" />
-              <div className="w-1.5 rounded-full bg-white/50" />
-              <div className="w-1.5 rounded-full bg-[#7A2F3E]" />
-            </div>
-            <div className="flex flex-col min-w-0">
-              <span className="font-bold text-white text-base leading-tight truncate" style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}>
-                {t('brand.name')}
-              </span>
-              <span className="text-[10px] text-white/40 hidden sm:block tracking-wide uppercase">
-                {t('brand.subtitle')}
-              </span>
-            </div>
-          </a>
+          <div className="flex items-center">
+            <img
+              src="/images/FreskaWeimar.png"
+              alt="Freska Weimar"
+              className="h-9 w-auto"
+            />
+          </div>
 
           <div className="flex items-center gap-3">
             <LanguageSwitcher
