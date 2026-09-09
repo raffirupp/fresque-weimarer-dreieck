@@ -11,7 +11,7 @@ export default function V2Footer() {
           <img
             src="/images/Logos.svg"
             alt="Freska Weimar"
-            className="h-11 w-auto"
+            className="h-20 w-auto"
           />
 
           <div>
