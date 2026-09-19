@@ -52,16 +52,16 @@
     "comingSoon": "Demnächst verfügbar",
     "items": {
       "karten_FR-DE": {
-        "title": "Set de cartes FR-DE",
-        "desc": "Set de cartes complet et imprimable en français et en allemand"
+        "title": "Karten-Set FR-DE",
+        "desc": "Vollständiges, druckbares Karten-Set auf Französisch und Deutsch"
       },
       "karten_FR-POL": {
-        "title": "Set de cartes FR-POL",
-        "desc": "Set de cartes complet et imprimable en français et en polonais"
+        "title": "Karten-Set FR-POL",
+        "desc": "Vollständiges, druckbares Karten-Set auf Französisch und Polnisch"
       },
       "moderationsleitfaden_FR": {
-        "title": "Guide de facilitation",
-        "desc": "Guide étape par étape pour les animateurs avec planification du temps, suggestions de questions et conseils méthodiques."
+        "title": "Moderationsleitfaden FR",
+        "desc": "Schritt-für-Schritt-Leitfaden für die Moderation mit Zeitplanung, Fragenvorschlägen und methodischen Hinweisen auf Französisch."
       }
       "karten_DE-FR": {
         "title": "Karten-Set DE-FR",
@@ -72,20 +72,20 @@
         "desc": "Vollständiges, druckbares Karten-Set auf Deutsch und Polnisch"
       },
       "moderationsleitfaden_DE": {
-        "title": "Moderationsleitfaden",
-        "desc": "Schritt-für-Schritt-Leitfaden für die Moderation mit Zeitplanung, Fragenvorschlägen und methodischen Hinweisen."
+        "title": "Moderationsleitfaden DE",
+        "desc": "Schritt-für-Schritt-Leitfaden für die Moderation mit Zeitplanung, Fragenvorschlägen und methodischen Hinweisen auf Deutsch."
       }
       "karten-POL-DE": {
-        "title": "Zestaw kart POL-DE",
-        "desc": "Kompletny zestaw map do wydruku w języku polskim i francuskim"
+        "title": "Karten-Set POL-DE",
+        "desc": "Vollständiges, druckbares Karten-Set auf Polnisch und Deutsch"
       },
       "karten-POL-FR": {
-        "title": "Zestaw kart POL-FR",
-        "desc": "Kompletny zestaw map do wydruku w języku polskim i niemieckim"
+        "title": "Karten-Set POL-FR",
+        "desc": "Vollständiges, druckbares Karten-Set auf Polnisch und Französisch"
       },
       "moderationsleitfaden_POL": {
-        "title": "Przewodnik moderatora",
-        "desc": "Przewodnik krok po kroku dla moderatorów z harmonogramem, propozycjami pytań i wskazówkami metodycznymi."
+        "title": "Moderationsleitfaden POL",
+        "desc": "Schritt-für-Schritt-Leitfaden für die Moderation mit Zeitplanung, Fragenvorschlägen und methodischen Hinweisen auf Polnisch."
       }
     }
   },
