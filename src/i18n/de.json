@@ -51,9 +51,13 @@
     "openButton": "Öffnen",
     "comingSoon": "Demnächst verfügbar",
     "items": {
-      "karten": {
-        "title": "Karten-Set",
-        "desc": "Vollständiges, druckbares Karten-Set. Enthält Fresko-Karten den vier thematischen Phasen: 1. Historischer Kontext, 2. Formen und Instrumente der Kooperation im Weimarer Dreieck, 3. Spannungen und Herausforderungen, 4. Chancen und Zukunftsperspektiven."
+      "karten_DE-FR": {
+        "title": "Karten-Set DE-FR",
+        "desc": "Vollständiges, druckbares Karten-Set auf Deutsch und Französisch"
+      },
+      "karten_DE-POL": {
+        "title": "Karten-Set DE-POL",
+        "desc": "Vollständiges, druckbares Karten-Set auf Deutsch und Polnisch"
       },
       "moderationsleitfaden": {
         "title": "Moderationsleitfaden",
