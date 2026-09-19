@@ -50,9 +50,13 @@
     "openButton": "Ouvrir",
     "comingSoon": "Bientôt disponible",
     "items": {
-      "karten": {
-        "title": "Set de cartes",
-        "desc": "Set de cartes complet et imprimable. Contient des cartes sur quatre thematiques principales: 1. Contexte historique, 2. Formats et méchanismes de coopération du Trianglede Weimar, 3. Tensions et défis, 4. Opportunités et perspectives d'avenir."
+      "karten_DE-FR": {
+        "title": "Set de cartes FR-DE",
+        "desc": "Set de cartes complet et imprimable en français et en allemand"
+      },
+      "karten_FR-POL": {
+        "title": "Set de cartes FR-POL",
+        "desc": "Set de cartes complet et imprimable en français et en polonais"
       },
       "moderationsleitfaden": {
         "title": "Guide de facilitation",
