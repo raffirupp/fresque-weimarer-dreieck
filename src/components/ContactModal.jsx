@@ -169,7 +169,8 @@ function ExternalIcon() {
 // ─── Download card ────────────────────────────────────────────────────────────
 
 function DownloadCard({ item, s, variant }) {
-  const { t } = useTranslation()
+  const { i18n } = useTranslation()
+  const t = i18n.getFixedT(lang)
 
   const actionEl = item.comingSoon ? (
     <span className={s.comingSoon} style={s.comingSoonStyle}>
@@ -321,7 +322,13 @@ function SuccessView({ s, variant, lang, onChangeLang }) {
 
       <div className={s.dlGrid}>
         {items.map(item => (
-          <DownloadCard key={item.id} item={item} s={s} variant={variant} />
+          <DownloadCard
+            key={item.id}
+            item={item}
+            s={s}
+            variant={variant}
+            lang={lang}
+          />
         ))}
       </div>
     </div>
@@ -336,6 +343,7 @@ export default function ContactModal({ variant = 'v1' }) {
   const s = S[variant]
 
   const savedUnlocked = !!localStorage.getItem('fresque_unlocked')
+  const savedLang = localStorage.getItem('fresque_unlocked_lang') || 'de'
 
   const [unlocked, setUnlocked] = useState(savedUnlocked)
   const [downloadLang, setDownloadLang] = useState(savedLang)
@@ -343,6 +351,7 @@ export default function ContactModal({ variant = 'v1' }) {
   useEffect(() => {
     if (open) {
       setUnlocked(!!localStorage.getItem('fresque_unlocked'))
+      setDownloadLang(localStorage.getItem('fresque_unlocked_lang') || 'de')
     }
   }, [open])
 
