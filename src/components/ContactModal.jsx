@@ -336,7 +336,6 @@ export default function ContactModal({ variant = 'v1' }) {
   const s = S[variant]
 
   const savedUnlocked = !!localStorage.getItem('fresque_unlocked')
-  const savedLang = localStorage.getItem('fresque_unlocked_lang') || 'de'
 
   const [unlocked, setUnlocked] = useState(savedUnlocked)
   const [downloadLang, setDownloadLang] = useState(savedLang)
@@ -344,7 +343,6 @@ export default function ContactModal({ variant = 'v1' }) {
   useEffect(() => {
     if (open) {
       setUnlocked(!!localStorage.getItem('fresque_unlocked'))
-      setDownloadLang(localStorage.getItem('fresque_unlocked_lang') || 'de')
     }
   }, [open])
 
