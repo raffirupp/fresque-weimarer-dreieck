@@ -60,31 +60,31 @@
       },
       "moderationsleitfaden_FR": {
         "title": "Guide de facilitation",
-        "desc": "Guide étape par étape pour les animateurs avec planification du temps, suggestions de questions et conseils méthodiques."
+        "desc": "Guide étape par étape pour les animateurs avec planification du temps, suggestions de questions et conseils méthodiques en français."
       }
       "karten_DE-FR": {
-        "title": "Karten-Set DE-FR",
-        "desc": "Vollständiges, druckbares Karten-Set auf Deutsch und Französisch"
+        "title": "Set de cartes DE-FR",
+        "desc": "Set de cartes complet et imprimable en allemand et en français"
       },
       "karten_DE-POL": {
-        "title": "Karten-Set DE-POL",
-        "desc": "Vollständiges, druckbares Karten-Set auf Deutsch und Polnisch"
+        "title": "Set de cartes DE-POL",
+        "desc": "Set de cartes complet et imprimable en allemand et en polonais"
       },
       "moderationsleitfaden_DE": {
-        "title": "Moderationsleitfaden",
-        "desc": "Schritt-für-Schritt-Leitfaden für die Moderation mit Zeitplanung, Fragenvorschlägen und methodischen Hinweisen."
+        "title": "Guide de facilitation",
+        "desc": "Guide étape par étape pour les animateurs avec planification du temps, suggestions de questions et conseils méthodiques en allemand."
       }
       "karten-POL-DE": {
-        "title": "Zestaw kart POL-DE",
-        "desc": "Kompletny zestaw map do wydruku w języku polskim i francuskim"
+        "title": "Set de cartes POL-DE",
+        "desc": "Set de cartes complet et imprimable en polonais et en allemand"
       },
       "karten-POL-FR": {
-        "title": "Zestaw kart POL-FR",
-        "desc": "Kompletny zestaw map do wydruku w języku polskim i niemieckim"
+        "title": "Set de cartes POL-FR",
+        "desc": "Set de cartes complet et imprimable en polonais et en français"
       },
       "moderationsleitfaden_POL": {
-        "title": "Przewodnik moderatora",
-        "desc": "Przewodnik krok po kroku dla moderatorów z harmonogramem, propozycjami pytań i wskazówkami metodycznymi."
+        "title": "Guide de facilitation",
+        "desc": "Guide étape par étape pour les animateurs avec planification du temps, suggestions de questions et conseils méthodiques en allemand."
       }
       
     }
