@@ -168,7 +168,7 @@ function ExternalIcon() {
 
 // ─── Download card ────────────────────────────────────────────────────────────
 
-function DownloadCard({ item, s, variant }) {
+function DownloadCard({ item, s, variant, lang }) {
   const { i18n } = useTranslation()
   const t = i18n.getFixedT(lang)
 
