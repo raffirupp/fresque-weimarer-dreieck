@@ -3,10 +3,17 @@ const GDOC = 'https://docs.google.com/document/d/1dqueBM16AB1KzhyibDjwv_4bRdGkBI
 export const downloadsByLang = {
   de: [
     {
-      id: 'karten-de',
+      id: 'karten-de-fr',
       titleKey: 'downloads.items.karten.title',
       descKey: 'downloads.items.karten.desc',
-      file: '/downloads/karten-set.pdf',
+      file: '/downloads/karten-set_DE-FR.pdf',
+      external: false,
+    },
+    {
+      id: 'karten-de-pol',
+      titleKey: 'downloads.items.karten.title',
+      descKey: 'downloads.items.karten.desc',
+      file: '/downloads/karten-set_DE-POL.pdf',
       external: false,
     },
     {
@@ -19,10 +26,17 @@ export const downloadsByLang = {
   ],
   fr: [
     {
-      id: 'karten-fr',
+      id: 'karten-fr-de',
       titleKey: 'downloads.items.karten.title',
       descKey: 'downloads.items.karten.desc',
-      file: '/downloads/karten-set.pdf',
+      file: '/downloads/karten-set_DE-FR.pdf',
+      external: false,
+    },
+    {
+      id: 'karten-fr-pol',
+      titleKey: 'downloads.items.karten.title',
+      descKey: 'downloads.items.karten.desc',
+      file: '/downloads/karten-set_FR-POL.pdf',
       external: false,
     },
     {
@@ -35,10 +49,17 @@ export const downloadsByLang = {
   ],
   pl: [
     {
-      id: 'karten-pl',
+      id: 'karten-pl-de',
       titleKey: 'downloads.items.karten.title',
       descKey: 'downloads.items.karten.desc',
-      file: '/downloads/karten-set.pdf',
+      file: '/downloads/karten-set_DE-POL.pdf',
+      external: false,
+    },
+    {
+      id: 'karten-pl-fr',
+      titleKey: 'downloads.items.karten.title',
+      descKey: 'downloads.items.karten.desc',
+      file: '/downloads/karten-set_FR-POL.pdf',
       external: false,
     },
     {
