@@ -51,6 +51,18 @@
     "openButton": "Öffnen",
     "comingSoon": "Demnächst verfügbar",
     "items": {
+      "karten_FR-DE": {
+        "title": "Set de cartes FR-DE",
+        "desc": "Set de cartes complet et imprimable en français et en allemand"
+      },
+      "karten_FR-POL": {
+        "title": "Set de cartes FR-POL",
+        "desc": "Set de cartes complet et imprimable en français et en polonais"
+      },
+      "moderationsleitfaden_FR": {
+        "title": "Guide de facilitation",
+        "desc": "Guide étape par étape pour les animateurs avec planification du temps, suggestions de questions et conseils méthodiques."
+      }
       "karten_DE-FR": {
         "title": "Karten-Set DE-FR",
         "desc": "Vollständiges, druckbares Karten-Set auf Deutsch und Französisch"
@@ -59,9 +71,21 @@
         "title": "Karten-Set DE-POL",
         "desc": "Vollständiges, druckbares Karten-Set auf Deutsch und Polnisch"
       },
-      "moderationsleitfaden": {
+      "moderationsleitfaden_DE": {
         "title": "Moderationsleitfaden",
         "desc": "Schritt-für-Schritt-Leitfaden für die Moderation mit Zeitplanung, Fragenvorschlägen und methodischen Hinweisen."
+      }
+      "karten-POL-DE": {
+        "title": "Zestaw kart POL-DE",
+        "desc": "Kompletny zestaw map do wydruku w języku polskim i francuskim"
+      },
+      "karten-POL-FR": {
+        "title": "Zestaw kart POL-FR",
+        "desc": "Kompletny zestaw map do wydruku w języku polskim i niemieckim"
+      },
+      "moderationsleitfaden_POL": {
+        "title": "Przewodnik moderatora",
+        "desc": "Przewodnik krok po kroku dla moderatorów z harmonogramem, propozycjami pytań i wskazówkami metodycznymi."
       }
     }
   },
