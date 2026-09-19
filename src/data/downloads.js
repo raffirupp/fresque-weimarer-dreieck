@@ -18,8 +18,8 @@ export const downloadsByLang = {
     },
     {
       id: 'leitfaden-de',
-      titleKey: 'downloads.items.moderationsleitfaden.title',
-      descKey: 'downloads.items.moderationsleitfaden.desc',
+      titleKey: 'downloads.items.moderationsleitfaden_DE.title',
+      descKey: 'downloads.items.moderationsleitfaden_DE.desc',
       file: `${GDOC}/edit?tab=t.jl2wxs6myb1q`,
       external: true,
     },
@@ -41,8 +41,8 @@ export const downloadsByLang = {
     },
     {
       id: 'leitfaden-fr',
-      titleKey: 'downloads.items.moderationsleitfaden.title',
-      descKey: 'downloads.items.moderationsleitfaden.desc',
+      titleKey: 'downloads.items.moderationsleitfaden_FR.title',
+      descKey: 'downloads.items.moderationsleitfaden_FR.desc',
       file: `${GDOC}/edit?tab=t.0`,
       external: true,
     },
@@ -64,8 +64,8 @@ export const downloadsByLang = {
     },
     {
       id: 'leitfaden-pl',
-      titleKey: 'downloads.items.moderationsleitfaden.title',
-      descKey: 'downloads.items.moderationsleitfaden.desc',
+      titleKey: 'downloads.items.moderationsleitfaden_POL.title',
+      descKey: 'downloads.items.moderationsleitfaden_POL.desc',
       file: `${GDOC}/edit?tab=t.c0kr9ya17ma7`,
       external: true,
       comingSoon: false,
