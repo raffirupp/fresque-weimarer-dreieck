@@ -4,14 +4,14 @@ export const team = [
   {
     id: 1,
     name: 'Leslie Albracht',
-    photo: '/team/placeholder.svg',
+    photo: '/team/Leslie2.jpeg',
     roleKey: 'team.person1.role',
     bioKey: 'team.person1.bio',
   },
   {
     id: 2,
     name: 'Pauline Laufer',
-    photo: '/team/placeholder.svg',
+    photo: '/team/Pauline.jpg',
     roleKey: 'team.person2.role',
     bioKey: 'team.person2.bio',
   },
