@@ -13,14 +13,14 @@
     "tagline": "Generation Europa 2025",
     "title": "Fresk Trójkąta Weimarskiego",
     "subtitle": "Interaktywny warsztat o współpracy europejskiej",
-    "intro": "Fresk Trójkąta Weimarskiego to narzędzie edukacyjne dla liderów młodzieżowych, które w angażujący sposób przybliża historię i przyszłość współpracy między Niemcami, Francją i Polską. Idealne do grup młodzieżowych, zajęć szkolnych i warsztatów obywatelskich.",
+    "intro": "Fresk Trójkąt Weimarski to zabawne narzędzie, zainspirowane „Freskiem Klimatycznym”, którego celem jest lepsze zrozumienie relacji między Francją, Niemcami i Polską od XX wieku.",
     "ctaDownload": "Pobierz materiały",
     "whatIsTitle": "Czym jest Fresk?",
-    "whatIsText": "Kolaboratywna gra warsztatowa z kartami, dyskusjami i refleksją grupową. Uczestnicy odkrywają razem historię i wartości Trójkąta Weimarskiego w ciągu jednej sesji.",
+    "whatIsText": "W ramach dwugodzinnych interaktywnych warsztatów z aktywnym udziałem uczestników uczestnicy prześledzą najważniejsze etapy historii tych trzech krajów, analizując kluczowe wydarzenia, które ukształtowały ich współpracę.",
     "forWhomTitle": "Dla kogo?",
-    "forWhomText": "Dla liderów młodzieżowych, animatorów, nauczycieli i organizacji prowadzących warsztaty dla młodzieży w wieku 14–25 lat. Nie wymaga wcześniejszej wiedzy.",
+    "forWhomText": "Celem tego projektu jest zapoznanie wszystkich osób zainteresowanych współpracą francusko-niemiecko-polską z Trójkątem Weimarskim. Projekt skierowany jest w szczególności do młodzieży w wieku od 15 lat, zarówno w kontekście edukacyjnym, jak i w ramach trójstronnych programów mobilności oraz wymian europejskich.",
     "howTitle": "Jak to działa?",
-    "howText": "Czas trwania: 90–120 minut. Uczestników: 8–24 osoby. Wszystkie materiały – zestaw kart i przewodnik moderatora – dostępne do bezpłatnego pobrania. Prosto i bez barier.",
+    "howText": "Czas trwania: 120 minut. Uczestników: 8–14 osoby. Wszystkie materiały – zestaw kart i przewodnik moderatora – dostępne do bezpłatnego pobrania. Prosto i bez barier.",
     "statLaender": "Kraje",
     "statWorkshop": "Min. Warsztat",
     "statTeiln": "Maks. ucz.",
@@ -31,17 +31,17 @@
     "s1": {
       "label": "Czym jest Fresk?",
       "title": "Warsztat, który ożywia Europę",
-      "text": "Fresk to gra z kartami przeznaczona dla grup młodzieżowych. W 90 minutach uczestnicy wspólnie odkrywają, co łączy Niemcy, Francję i Polskę – i jak chcą kształtować Europę przyszłości."
+      "text": "Fresk „Trójkąt Weimarski” to zabawne narzędzie, zainspirowane Freskiem Klimatycznym, którego celem jest lepsze zrozumienie relacji między Francją, Niemcami i Polską od XX wieku."
     },
     "s2": {
       "label": "Dla kogo?",
-      "title": "Dla młodzieży od 14 do 25 lat",
-      "text": "Liderzy młodzieżowi, nauczyciele i koordynatorzy stowarzyszeń mogą prowadzić Fresk bez żadnych wcześniejszych wymagań. Wszystko, czego potrzebujesz, to bezpłatne materiały i chęć na wartościowe rozmowy."
+      "title": "Dla wszystkich osób w wieku od 15 lat, które interesują się współpracą między Niemcami, Francją i Polską",
+      "text": "Celem tego projektu jest zapoznanie wszystkich osób zainteresowanych współpracą francusko-niemiecko-polską z Trójkątem Weimarskim. Projekt skierowany jest w szczególności do młodzieży w wieku od 15 lat, zarówno w kontekście edukacyjnym, jak i w ramach trójnarodowych programów mobilności oraz wymian europejskich."
     },
     "s3": {
       "label": "Jak?",
-      "title": "W trzech prostych krokach",
-      "text": "Pobierz materiały, wydrukuj karty i rozpocznij swój warsztat. Obszerny przewodnik dla moderatora przeprowadzi Cię przez cały przebieg – krok po kroku."
+      "title": "Warsztaty przebiegają w trzech etapach",
+      "text": "W pierwszej kolejności uczestnicy wspólnie tworzą fresk, aby uwidocznić powiązania między wydarzeniami historycznymi a sytuacjami społecznymi. Podczas etapu refleksji uczestnicy mogą wyrażać swoje odczucia, zastanawiać się nad powiązaniami między przeszłością a teraźniejszością oraz zgłębiać różne interpretacje. Na koniec poświęca się czas na wymianę poglądów i podsumowanie doświadczeń."
     }
   },
   "downloads": {
@@ -134,7 +134,7 @@
     "privacyDetails": "Niniejsze informacje uzupełniają ogólną politykę prywatności DFJW o dane dotyczące usług wykorzystywanych na tej stronie projektu.\n\nFormularz kontaktowy/pobierania: wypełniając formularz, przetwarzamy wasz adres e-mail, wybrany język, cel wykorzystania, kraj, grupę docelową oraz ewentualnego partnera współpracy, aby przesłać wam odpowiednie materiały (art. 6 ust. 1 lit. b/f RODO). Dane są przechowywane za pośrednictwem dostawcy Supabase Inc. na serwerach zlokalizowanych w UE; dostęp mają wyłącznie osoby odpowiedzialne za projekt.\n\nAnaliza ruchu: ta strona korzysta z Vercel Analytics do anonimowej analizy ruchu bez plików cookie, bez tworzenia profili osobowych.\n\nWasze prawa: macie prawo do informacji, sprostowania, usunięcia i ograniczenia przetwarzania waszych danych. W tej sprawie napiszcie do: weimar.freska@gmail.com",
     "privacyDfjwLink": "Ogólna polityka prywatności DFJW",
     "contactTitle": "Kontakt",
-    "contactEmail": "kontakt@example.org",
+    "contactEmail": "weimar.freska@gmail.com",
     "rights": "Wszelkie prawa zastrzeżone."
   }
 }
