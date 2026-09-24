@@ -49,7 +49,7 @@ export default function V3Hero() {
       num: '03',
       title: t('hero.howTitle'),
       text: t('hero.howText'),
-      card: '/images/phases.png',
+      card: '/cards/vorder-2.png',
       cta: true,
     },
   ]
