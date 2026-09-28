@@ -7,7 +7,7 @@ const LANGS = [
   { code: 'pl', label: 'PL', flag: '🇵🇱' },
 ]
 
-export default function LanguageSwitcher({ activeClass, inactiveClass }) {
+export default function LanguageSwitcher({ activeClass }) {
   const { i18n } = useTranslation()
   const current = i18n.language.split('-')[0]
   const currentLang = LANGS.find(l => l.code === current) ?? LANGS[0]

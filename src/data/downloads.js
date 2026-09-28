@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars -- vorbereitet für ein geplantes Feature, Rücksprache mit Kollegin ausstehend
 const GDOC = 'https://docs.google.com/document/d/1dqueBM16AB1KzhyibDjwv_4bRdGkBIRZeX8luy1wHdM'
 
 export const downloadsByLang = {

@@ -168,7 +168,7 @@ function ExternalIcon() {
 
 // ─── Download card ────────────────────────────────────────────────────────────
 
-function DownloadCard({ item, s, variant, lang }) {
+function DownloadCard({ item, s, lang }) {
   const { i18n } = useTranslation()
   const t = i18n.getFixedT(lang)
 
@@ -197,7 +197,7 @@ function DownloadCard({ item, s, variant, lang }) {
 
 // ─── Form view ────────────────────────────────────────────────────────────────
 
-function FormView({ s, variant, onSuccess }) {
+function FormView({ s, onSuccess }) {
   const { t } = useTranslation()
   const [formLang, setFormLang] = useState('de')
   const [fields, setFields] = useState({ einsatzzweck: '', land: '', zielgruppe: '', partner: '', email: '' })
@@ -299,7 +299,7 @@ function FormView({ s, variant, onSuccess }) {
 
 // ─── Success / downloads view ─────────────────────────────────────────────────
 
-function SuccessView({ s, variant, lang, onChangeLang }) {
+function SuccessView({ s, lang, onChangeLang }) {
   const { t } = useTranslation()
   const items = downloadsByLang[lang] ?? downloadsByLang.de
 
@@ -326,7 +326,6 @@ function SuccessView({ s, variant, lang, onChangeLang }) {
             key={item.id}
             item={item}
             s={s}
-            variant={variant}
             lang={lang}
           />
         ))}
@@ -350,6 +349,7 @@ export default function ContactModal({ variant = 'v1' }) {
 
   useEffect(() => {
     if (open) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- gewollt: Zustand beim Öffnen neu aus localStorage laden
       setUnlocked(!!localStorage.getItem('fresque_unlocked'))
       setDownloadLang(localStorage.getItem('fresque_unlocked_lang') || 'de')
     }
@@ -416,8 +416,8 @@ export default function ContactModal({ variant = 'v1' }) {
 
         {/* Content */}
         {unlocked
-          ? <SuccessView s={s} variant={variant} lang={downloadLang} onChangeLang={handleChangeLang} />
-          : <FormView s={s} variant={variant} onSuccess={handleSuccess} />
+          ? <SuccessView s={s} lang={downloadLang} onChangeLang={handleChangeLang} />
+          : <FormView s={s} onSuccess={handleSuccess} />
         }
       </div>
     </div>
