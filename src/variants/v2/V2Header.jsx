@@ -35,6 +35,14 @@ export default function V2Header() {
             >
               {t('nav.downloads')}
             </button>
+            <a
+              href="mailto:weimar.freska@gmail.com"
+              onClick={() => setMenuOpen(false)}
+              className="hidden md:inline-flex text smfont-bold text white px-4 py-2 rounded-lg border border-white/30 hover:bg-white/10 transition-colors"
+            >
+              {t('nav.contact')}
+            </a>
+            
             <button
               className="md:hidden p-1.5 text-white/70 hover:text-white transition-colors"
               onClick={() => setMenuOpen(o => !o)}
