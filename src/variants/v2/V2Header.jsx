@@ -35,7 +35,7 @@ export default function V2Header() {
             >
               {t('nav.downloads')}
             </button>
-            <button
+            <a
               href="mailto:weimar.freska@gmail.com"
               onClick={() => setMenuOpen(false)}
               className="hidden md:inline-flex text-sm font-bold text-white px-4 py-2 rounded-lg transition-colors"
@@ -44,7 +44,7 @@ export default function V2Header() {
               onMouseLeave={e => { e.currentTarget.style.background = '#EB5436' }}
             >
               {t('nav.contact')}
-            </button>
+            </a>
             
             <button
               className="md:hidden p-1.5 text-white/70 hover:text-white transition-colors"
