@@ -7,7 +7,7 @@ export default function V2Footer() {
   return (
     <footer style={{ background: 'linear-gradient(135deg, #0A1928, #1E3A5F)' }} className="text-white">
       <div className="max-w-7xl mx-auto px-5 sm:px-10 py-14">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           <img
             src="/images/Logos.svg"
             alt="Freska Weimar"
@@ -42,6 +42,16 @@ export default function V2Footer() {
               <p className="text-white/50 leading-relaxed whitespace-pre-line mt-3">{t('footer.privacyDetails')}</p>
             </details>
           </div>
+          <div>
+            <h3 classname="text-xs font-black text-[#B8860B] uppercase tracking-widest mb-4">{t('nav.contact')}</h3>
+            <a
+              href="mailto:weimar.freska@gmail.com"
+              className="text-sm text-white/50 leading-relaxed mb-2">
+                weimar.freska@gmail.com
+            </a>
+          </div>
+
+          
         </div>
 
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
