@@ -18,8 +18,8 @@ const sections = [
   },
   {
     key: 's3',
-    cardImg: '/cards/vorder-3.png',
-    cardAlt: 'Mauerfall 1989',
+    cardImg: '/images/phases.png',
+    cardAlt: 'Fresque Phases',
     reverse: false,
     labelColor: 'text-emerald-700 bg-emerald-100',
   },
