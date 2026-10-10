@@ -43,10 +43,10 @@ export default function V2Footer() {
             </details>
           </div>
           <div>
-            <h3 classname="text-xs font-black text-[#B8860B] uppercase tracking-widest mb-4">{t('nav.contact')}</h3>
+            <h3 className="text-xs font-black text-[#B8860B] uppercase tracking-widest mb-4">{t('nav.contact')}</h3>
             <a
               href="mailto:weimar.freska@gmail.com"
-              className="text-sm text-white/50 leading-relaxed mb-2">
+              className="text-sm text-white/50 hover:text-white/80 underline underline-offset-2 leading-relaxed">
                 weimar.freska@gmail.com
             </a>
           </div>
