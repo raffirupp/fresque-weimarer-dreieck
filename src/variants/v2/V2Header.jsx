@@ -37,6 +37,7 @@ export default function V2Header() {
             </button>
             <a
               href="mailto:weimar.freska@gmail.com"
+              title="weimar.freska@gmail.com"
               onClick={() => setMenuOpen(false)}
               className="hidden md:inline-flex text-sm font-bold text-white px-4 py-2 rounded-lg transition-colors"
               style={{ background: '#C54A31' }}
@@ -81,6 +82,7 @@ export default function V2Header() {
             </button>
             <a
               href="mailto:weimar.freska@gmail.com"
+              title="weimar.freska@gmail.com"
               onClick={() => setMenuOpen(false)}
               className="hidden md:inline-flex text-sm font-bold text-white px-4 py-2 rounded-lg transition-colors"
               style={{ background: '#C54A31' }}
