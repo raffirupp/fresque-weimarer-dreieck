@@ -39,9 +39,9 @@ export default function V2Header() {
               href="mailto:weimar.freska@gmail.com"
               onClick={() => setMenuOpen(false)}
               className="hidden md:inline-flex text-sm font-bold text-white px-4 py-2 rounded-lg transition-colors"
-              style={{ background: '#EB5436' }}
-              onMouseEnter={e => { e.currentTarget.style.background = '#C54A31' }}
-              onMouseLeave={e => { e.currentTarget.style.background = '#EB5436' }}
+              style={{ background: '#C54A31' }}
+              onMouseEnter={e => { e.currentTarget.style.background = '#953927' }}
+              onMouseLeave={e => { e.currentTarget.style.background = '#C54A31' }}
             >
               {t('nav.contact')}
             </a>
@@ -79,6 +79,16 @@ export default function V2Header() {
             >
               {t('nav.downloads')} →
             </button>
+            <a
+              href="mailto:weimar.freska@gmail.com"
+              onClick={() => setMenuOpen(false)}
+              className="hidden md:inline-flex text-sm font-bold text-white px-4 py-2 rounded-lg transition-colors"
+              style={{ background: '#C54A31' }}
+              onMouseEnter={e => { e.currentTarget.style.background = '#953927' }}
+              onMouseLeave={e => { e.currentTarget.style.background = '#C54A31' }}
+            >
+              {t('nav.contact')}
+            </a>
           </nav>
         )}
       </div>
